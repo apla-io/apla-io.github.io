@@ -1,16 +1,16 @@
 @charset "UTF-8";
 @font-face {
 	font-family: Graphik-Regular-Web;
-	src: url(./assets/fonts/Graphik-Regular-Web.eot);
-	src: url(./assets/fonts/Graphik-Regular-Web.eot?#iefix) format("embedded-opentype"), url(./assets/fonts/Graphik-Regular-Web.woff2) format("woff2"), url(./assets/fonts/Graphik-Regular-Web.woff) format("woff"), url(./assets/fonts/Graphik-Regular-Web.ttf) format("truetype");
+	src: url(/assets/fonts/Graphik-Regular-Web.eot);
+	src: url(/assets/fonts/Graphik-Regular-Web.eot?#iefix) format("embedded-opentype"), url(/assets/fonts/Graphik-Regular-Web.woff2) format("woff2"), url(/assets/fonts/Graphik-Regular-Web.woff) format("woff"), url(/assets/fonts/Graphik-Regular-Web.ttf) format("truetype");
 	font-weight: 400;
 	font-style: normal
 }
 
 @font-face {
 	font-family: GilroyExtraBold;
-	src: url(./assets/fonts/GilroyExtraBold.eot);
-	src: url(./assets/fonts/GilroyExtraBold.eot?#iefix) format("embedded-opentype"), url(./assets/fonts/GilroyExtraBold.woff2) format("woff2"), url(./assets/fonts/GilroyExtraBold.woff) format("woff"), url(./assets/fonts/GilroyExtraBold.ttf) format("truetype");
+	src: url(/assets/fonts/GilroyExtraBold.eot);
+	src: url(/assets/fonts/GilroyExtraBold.eot?#iefix) format("embedded-opentype"), url(/assets/fonts/GilroyExtraBold.woff2) format("woff2"), url(/assets/fonts/GilroyExtraBold.woff) format("woff"), url(/assets/fonts/GilroyExtraBold.ttf) format("truetype");
 	font-weight: 400;
 	font-style: normal
 }
@@ -23,8 +23,8 @@
 
 @font-face {
 	font-family: FontAwesome;
-	src: url(./assets/fonts//fontawesome-webfont.eot?v=4.7.0);
-	src: url(./assets/fonts//fontawesome-webfont.eot?#iefix&v=4.7.0) format("embedded-opentype"), url(./assets/fonts//fontawesome-webfont.woff2?v=4.7.0) format("woff2"), url(./assets/fonts//fontawesome-webfont.woff?v=4.7.0) format("woff"), url(./assets/fonts//fontawesome-webfont.ttf?v=4.7.0) format("truetype"), url(./assets/fonts//fontawesome-webfont.svg?v=4.7.0#fontawesomeregular) format("svg");
+	src: url(/assets/fonts//fontawesome-webfont.eot?v=4.7.0);
+	src: url(/assets/fonts//fontawesome-webfont.eot?#iefix&v=4.7.0) format("embedded-opentype"), url(/assets/fonts//fontawesome-webfont.woff2?v=4.7.0) format("woff2"), url(/assets/fonts//fontawesome-webfont.woff?v=4.7.0) format("woff"), url(/assets/fonts//fontawesome-webfont.ttf?v=4.7.0) format("truetype"), url(/assets/fonts//fontawesome-webfont.svg?v=4.7.0#fontawesomeregular) format("svg");
 	font-weight: 400;
 	font-style: normal
 }
@@ -7581,7 +7581,7 @@ ul li:before {
 	top: 9px;
 	width: 10px;
 	height: 9px;
-	background-image: url(../assets/icons/bullet.svg);
+	background-image: url(/assets/icons/bullet.svg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: 100% 100%
@@ -7627,7 +7627,7 @@ app-root {
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background-image: url(./assets/images/logo-white.svg);
+	background-image: url(/assets/images/logo-white.svg);
 	background-repeat: no-repeat;
 	background-position: 0 0;
 	background-size: 100% 100%;
@@ -7644,7 +7644,7 @@ app-root {
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background-image: url(./assets/images/logo-white.svg);
+	background-image: url(/assets/images/logo-white.svg);
 	background-repeat: no-repeat;
 	background-position: 0 0;
 	background-size: 100% 100%;
@@ -7670,7 +7670,7 @@ app-root {
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background-image: url(./assets/images/logo-black.svg);
+	background-image: url(/assets/images/logo-black.svg);
 	background-repeat: no-repeat;
 	background-position: 0 0;
 	background-size: 100% 100%;
@@ -7687,7 +7687,7 @@ app-root {
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background-image: url(./assets/images/logo-black.svg);
+	background-image: url(/assets/images/logo-black.svg);
 	background-repeat: no-repeat;
 	background-position: 0 0;
 	background-size: 100% 100%;
@@ -7886,164 +7886,164 @@ mat-dialog-container {
 }
 
 .arrow-lg.arrow-down:before {
-	background-image: url(./assets/icons/arrow-down-hover.svg)
+	background-image: url(/assets/icons/arrow-down-hover.svg)
 }
 
 .arrow-lg.arrow-down:after {
-	background-image: url(./assets/icons/arrow-down-pressed.svg)
+	background-image: url(/assets/icons/arrow-down-pressed.svg)
 }
 
 .arrow-lg.arrow-down em:before {
-	background-image: url(./assets/icons/arrow-down.svg);
+	background-image: url(/assets/icons/arrow-down.svg);
 	background-size: 23px 25px
 }
 
 .arrow-lg.arrow-down em:after {
-	background-image: url(./assets/icons/arrow-down-white.svg);
+	background-image: url(/assets/icons/arrow-down-white.svg);
 	background-size: 23px 25px
 }
 
 .arrow-lg.arrow-left:before {
-	background-image: url(./assets/icons/arrow-left-hover.svg)
+	background-image: url(/assets/icons/arrow-left-hover.svg)
 }
 
 .arrow-lg.arrow-left:after {
-	background-image: url(./assets/icons/arrow-left-pressed.svg)
+	background-image: url(/assets/icons/arrow-left-pressed.svg)
 }
 
 .arrow-lg.arrow-left em:before {
-	background-image: url(./assets/icons/arrow-left.svg);
+	background-image: url(/assets/icons/arrow-left.svg);
 	background-size: 25px 23px
 }
 
 .arrow-lg.arrow-left em:after {
-	background-image: url(./assets/icons/arrow-left-white.svg);
+	background-image: url(/assets/icons/arrow-left-white.svg);
 	background-size: 25px 23px
 }
 
 .arrow-lg.arrow-left-w:before {
-	background-image: url(./assets/icons/arrow-left-hover.svg)
+	background-image: url(/assets/icons/arrow-left-hover.svg)
 }
 
 .arrow-lg.arrow-left-w:after {
-	background-image: url(./assets/icons/arrow-left-pressed.svg)
+	background-image: url(/assets/icons/arrow-left-pressed.svg)
 }
 
 .arrow-lg.arrow-left-w em:before {
-	background-image: url(./assets/icons/arrow-left-white.svg);
+	background-image: url(/assets/icons/arrow-left-white.svg);
 	background-size: 25px 23px
 }
 
 .arrow-lg.arrow-left-w em:after {
-	background-image: url(./assets/icons/arrow-left.svg);
+	background-image: url(/assets/icons/arrow-left.svg);
 	background-size: 25px 23px
 }
 
 .arrow-lg.arrow-right:before {
-	background-image: url(./assets/icons/arrow-right-hover.svg)
+	background-image: url(/assets/icons/arrow-right-hover.svg)
 }
 
 .arrow-lg.arrow-right:after {
-	background-image: url(./assets/icons/arrow-right-pressed.svg)
+	background-image: url(/assets/icons/arrow-right-pressed.svg)
 }
 
 .arrow-lg.arrow-right em:before {
-	background-image: url(./assets/icons/arrow-right.svg);
+	background-image: url(/assets/icons/arrow-right.svg);
 	background-size: 25px 23px
 }
 
 .arrow-lg.arrow-right em:after {
-	background-image: url(./assets/icons/arrow-right-white.svg);
+	background-image: url(/assets/icons/arrow-right-white.svg);
 	background-size: 25px 23px
 }
 
 .arrow-lg.arrow-right-w:before {
-	background-image: url(./assets/icons/arrow-right-hover.svg)
+	background-image: url(/assets/icons/arrow-right-hover.svg)
 }
 
 .arrow-lg.arrow-right-w:after {
-	background-image: url(./assets/icons/arrow-right-pressed.svg)
+	background-image: url(/assets/icons/arrow-right-pressed.svg)
 }
 
 .arrow-lg.arrow-right-w em:before {
-	background-image: url(./assets/icons/arrow-right-white.svg);
+	background-image: url(/assets/icons/arrow-right-white.svg);
 	background-size: 25px 23px
 }
 
 .arrow-lg.arrow-right-w em:after {
-	background-image: url(./assets/icons/arrow-right.svg);
+	background-image: url(/assets/icons/arrow-right.svg);
 	background-size: 25px 23px
 }
 
 .arrow-down:before {
-	background-image: url(./assets/icons/small-arrow-down-hover.svg)
+	background-image: url(/assets/icons/small-arrow-down-hover.svg)
 }
 
 .arrow-down:after {
-	background-image: url(./assets/icons/small-arrow-down-pressed.svg)
+	background-image: url(/assets/icons/small-arrow-down-pressed.svg)
 }
 
 .arrow-down em:before {
-	background-image: url(./assets/icons/small-arrow-down.svg);
+	background-image: url(/assets/icons/small-arrow-down.svg);
 	background-size: 14px 15px
 }
 
 .arrow-down em:after {
-	background-image: url(./assets/icons/small-arrow-down-white.svg);
+	background-image: url(/assets/icons/small-arrow-down-white.svg);
 	background-size: 14px 15px
 }
 
 .arrow-left:before {
-	background-image: url(./assets/icons/small-arrow-left-hover.svg)
+	background-image: url(/assets/icons/small-arrow-left-hover.svg)
 }
 
 .arrow-left:after {
-	background-image: url(./assets/icons/small-arrow-left-pressed.svg)
+	background-image: url(/assets/icons/small-arrow-left-pressed.svg)
 }
 
 .arrow-left em:before {
-	background-image: url(./assets/icons/small-arrow-left.svg);
+	background-image: url(/assets/icons/small-arrow-left.svg);
 	background-size: 15px 14px
 }
 
 .arrow-left em:after {
-	background-image: url(./assets/icons/small-arrow-left-white.svg);
+	background-image: url(/assets/icons/small-arrow-left-white.svg);
 	background-size: 15px 14px
 }
 
 .arrow-right:before {
-	background-image: url(./assets/icons/small-arrow-right-hover.svg)
+	background-image: url(/assets/icons/small-arrow-right-hover.svg)
 }
 
 .arrow-right:after {
-	background-image: url(./assets/icons/small-arrow-right-pressed.svg)
+	background-image: url(/assets/icons/small-arrow-right-pressed.svg)
 }
 
 .arrow-right em:before {
-	background-image: url(./assets/icons/small-arrow-right.svg);
+	background-image: url(/assets/icons/small-arrow-right.svg);
 	background-size: 15px 14px
 }
 
 .arrow-right em:after {
-	background-image: url(./assets/icons/small-arrow-right-white.svg);
+	background-image: url(/assets/icons/small-arrow-right-white.svg);
 	background-size: 15px 14px
 }
 
 .arrow-right-w:before {
-	background-image: url(./assets/icons/small-arrow-right-hover.svg)
+	background-image: url(/assets/icons/small-arrow-right-hover.svg)
 }
 
 .arrow-right-w:after {
-	background-image: url(./assets/icons/small-arrow-right-pressed.svg)
+	background-image: url(/assets/icons/small-arrow-right-pressed.svg)
 }
 
 .arrow-right-w em:before {
-	background-image: url(./assets/icons/small-arrow-right-white.svg);
+	background-image: url(/assets/icons/small-arrow-right-white.svg);
 	background-size: 15px 14px
 }
 
 .arrow-right-w em:after {
-	background-image: url(./assets/icons/small-arrow-right.svg);
+	background-image: url(/assets/icons/small-arrow-right.svg);
 	background-size: 15px 14px
 }
 
@@ -8308,7 +8308,7 @@ form .form-success.show {
 	right: 0;
 	top: 0;
 	bottom: 0;
-	background-image: url(./assets/icons/btn-hover.svg);
+	background-image: url(/assets/icons/btn-hover.svg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: 100% 100%;
@@ -8345,7 +8345,7 @@ form .form-success.show {
 }
 
 .btn-icon-black:before {
-	background-image: url(./assets/icons/btn-black.svg)
+	background-image: url(/assets/icons/btn-black.svg)
 }
 
 @media (min-width:992px) {
@@ -8359,7 +8359,7 @@ form .form-success.show {
 }
 
 .btn-icon-white:before {
-	background-image: url(./assets/icons/btn-white.svg)
+	background-image: url(/assets/icons/btn-white.svg)
 }
 
 .btn-icon-lg {
@@ -8368,7 +8368,7 @@ form .form-success.show {
 }
 
 .btn-icon-check {
-	background-image: url(./assets/icons/icon-check.svg);
+	background-image: url(/assets/icons/icon-check.svg);
 	background-repeat: no-repeat;
 	width: 35px;
 	height: 34px;
@@ -8395,7 +8395,7 @@ form .form-success.show {
 	right: 0;
 	top: 0;
 	bottom: 0;
-	background-image: url(./assets/icons/close.svg);
+	background-image: url(/assets/icons/close.svg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	opacity: 1;
@@ -8412,7 +8412,7 @@ form .form-success.show {
 	right: 0;
 	top: 0;
 	bottom: 0;
-	background-image: url(./assets/icons/close-hover.svg);
+	background-image: url(/assets/icons/close-hover.svg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	opacity: 0;
@@ -8463,7 +8463,7 @@ form .form-success.show {
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background-image: url(./assets/icons/arrow-more-green.svg);
+	background-image: url(/assets/icons/arrow-more-green.svg);
 	background-repeat: no-repeat;
 	background-position: 0 0;
 	opacity: 1;
@@ -8479,7 +8479,7 @@ form .form-success.show {
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background-image: url(./assets/icons/arrow-more-white.svg);
+	background-image: url(/assets/icons/arrow-more-white.svg);
 	background-repeat: no-repeat;
 	background-position: 0 0;
 	opacity: 0;
@@ -8584,11 +8584,11 @@ form .form-success.show {
 }
 
 .mask-black:after {
-	background-image: url(./assets/mask-black.svg)
+	background-image: url(/assets/mask-black.svg)
 }
 
 .mask-white:after {
-	background-image: url(./assets/mask-white.svg)
+	background-image: url(/assets/mask-white.svg)
 }
 
 /* .screen-main {
@@ -8608,7 +8608,7 @@ form .form-success.show {
 }
 
 .marketplace {
-    background-image: url(./assets/images/banner-2.jpg);
+    background-image: url(/assets/images/banner-2.jpg);
 }
 
 @media screen and (max-width:991px) {
@@ -8792,9 +8792,7 @@ form .form-success.show {
 	padding-top: 60px;
 }
 
-.screen-use-case .left-button {
-	/* margin-top: -45px; */
-}
+/* assets */
 
 .screen-use-case .fancybox-iframe {
     display: block;
@@ -10294,7 +10292,7 @@ form .form-success.show {
 .screen-history h2 small {
 	position: relative;
 	top: 5px;
-	background-image: url(./assets/images/about/drag.svg);
+	background-image: url(/assets/images/about/drag.svg);
 	background-repeat: no-repeat;
 	background-position: center top;
 	color: #717171;
@@ -10447,15 +10445,15 @@ form .form-success.show {
 }
 
 .screen-blockchain section article:nth-of-type(1) span {
-	background-image: url(./assets/icons/icon-secure-data.svg)
+	background-image: url(/assets/icons/icon-secure-data.svg)
 }
 
 .screen-blockchain section article:nth-of-type(2) span {
-	background-image: url(./assets/icons/icon-transparent.svg)
+	background-image: url(/assets/icons/icon-transparent.svg)
 }
 
 .screen-blockchain section article:nth-of-type(3) span {
-	background-image: url(./assets/icons/icon-speed.svg)
+	background-image: url(/assets/icons/icon-speed.svg)
 }
 
 .screen-blockchain section article span {
@@ -10552,27 +10550,27 @@ form .form-success.show {
 }
 
 .screen-benefits section article:nth-of-type(1) span {
-	background-image: url(./assets/icons/icon-smartlaw.svg)
+	background-image: url(/assets/icons/icon-smartlaw.svg)
 }
 
 .screen-benefits section article:nth-of-type(2) span {
-	background-image: url(./assets/icons/icon-regulated-ecosystem.svg)
+	background-image: url(/assets/icons/icon-regulated-ecosystem.svg)
 }
 
 .screen-benefits section article:nth-of-type(3) span {
-	background-image: url(./assets/icons/icon-rapid-development.svg)
+	background-image: url(/assets/icons/icon-rapid-development.svg)
 }
 
 .screen-benefits section article:nth-of-type(4) span {
-	background-image: url(./assets/icons/icon-independence.svg)
+	background-image: url(/assets/icons/icon-independence.svg)
 }
 
 .screen-benefits section article:nth-of-type(5) span {
-	background-image: url(./assets/icons/icon-interface-editor.svg)
+	background-image: url(/assets/icons/icon-interface-editor.svg)
 }
 
 .screen-benefits section article:nth-of-type(6) span {
-	background-image: url(./assets/icons/icon-cross-platform.svg)
+	background-image: url(/assets/icons/icon-cross-platform.svg)
 }
 
 .screen-benefits section article span {
@@ -11945,7 +11943,7 @@ form .form-success.show {
 	-ms-flex: 60%;
 	flex: 60%;
 	position: relative;
-	background-image: url(./assets/icons/brace.svg);
+	background-image: url(/assets/icons/brace.svg);
 	background-repeat: no-repeat;
 	background-position: right 37px top;
 	background-size: 42px 100%;
@@ -11969,7 +11967,7 @@ form .form-success.show {
 	bottom: 0;
 	width: 40px;
 	height: 36px;
-	background-image: url(./assets/icons/icon-border.svg);
+	background-image: url(/assets/icons/icon-border.svg);
 	background-repeat: no-repeat;
 	background-position: 0 0;
 	background-size: 100% 100%;
@@ -12129,7 +12127,7 @@ form .form-success.show {
 	bottom: 0;
 	width: 25px;
 	height: 27px;
-	background-image: url(./assets/images/cases/arrow.svg);
+	background-image: url(/assets/images/cases/arrow.svg);
 	background-repeat: no-repeat;
 	background-position: right center;
 	background-size: auto 27px;
@@ -12163,7 +12161,7 @@ form .form-success.show {
 	top: 0;
 	width: 100%;
 	height: 27px;
-	background-image: url(./assets/images/cases/arrow.svg);
+	background-image: url(/assets/images/cases/arrow.svg);
 	background-repeat: no-repeat;
 	background-position: right center;
 	background-size: auto 27px
@@ -12216,7 +12214,7 @@ form .form-success.show {
 	bottom: 60px;
 	width: 73px;
 	height: 68px;
-	background-image: url(./assets/icons/icon-play.svg);
+	background-image: url(/assets/icons/icon-play.svg);
 	background-repeat: no-repeat;
 	background-position: 0 0;
 	background-size: 100% 100%;
@@ -12360,19 +12358,19 @@ form .form-success.show {
 }
 
 .screen-outcome section:nth-of-type(2) article:nth-of-type(1) span {
-	background-image: url(./assets/icons/icon-documents.svg)
+	background-image: url(/assets/icons/icon-documents.svg)
 }
 
 .screen-outcome section:nth-of-type(2) article:nth-of-type(2) span {
-	background-image: url(./assets/icons/icon-process.svg)
+	background-image: url(/assets/icons/icon-process.svg)
 }
 
 .screen-outcome section:nth-of-type(2) article:nth-of-type(3) span {
-	background-image: url(./assets/icons/icon-happy-planet.svg)
+	background-image: url(/assets/icons/icon-happy-planet.svg)
 }
 
 .screen-outcome section:nth-of-type(2) article:nth-of-type(4) span {
-	background-image: url(./assets/icons/icon-goverment-trust.svg)
+	background-image: url(/assets/icons/icon-goverment-trust.svg)
 }
 
 .screen-outcome section:nth-of-type(2) article span {
@@ -12487,7 +12485,7 @@ form .form-success.show {
 	top: -29px;
 	width: 25px;
 	height: 27px;
-	background-image: url(./assets/images/cases/arrow.svg);
+	background-image: url(/assets/images/cases/arrow.svg);
 	background-repeat: no-repeat;
 	background-position: right center;
 	background-size: auto 27px;
@@ -12552,7 +12550,7 @@ form .form-success.show {
 	display: block;
 	min-width: 120px;
 	max-width: 120px;
-	background-image: url(./assets/images/cases/arrow.svg);
+	background-image: url(/assets/images/cases/arrow.svg);
 	background-repeat: no-repeat;
 	background-position: right center;
 	background-size: auto 27px
@@ -12636,11 +12634,11 @@ form .form-success.show {
 }
 
 .screen-additional section article:nth-of-type(1) span {
-	background-image: url(./assets/icons/icon-face-recognition.svg)
+	background-image: url(/assets/icons/icon-face-recognition.svg)
 }
 
 .screen-additional section article:nth-of-type(2) span {
-	background-image: url(./assets/icons/icon-car-recognition.svg)
+	background-image: url(/assets/icons/icon-car-recognition.svg)
 }
 
 .screen-additional section article span {
@@ -12827,7 +12825,7 @@ form .form-success.show {
 .video-section .video-wrapper .video-js2.vjs-ended .vjs-poster,
 .video-section .video-wrapper .video-js2.vjs-paused .vjs-poster {
 	display: block;
-	background: url(./assets/images/video-bkg-sm-t.svg) top left no-repeat!important;
+	background: url(/assets/images/video-bkg-sm-t.svg) top left no-repeat!important;
 	background-size: cover
 }
 
@@ -12843,7 +12841,7 @@ form .form-success.show {
 	right: 0;
 	top: 0;
 	bottom: 0;
-	background: url(./assets/images/video-bkg-sm-t.svg) top left no-repeat;
+	background: url(/assets/images/video-bkg-sm-t.svg) top left no-repeat;
 	background-size: cover;
 	content: " "
 }
@@ -13243,7 +13241,7 @@ app-header section .language button {
 		color: #FFF
 	}
 	app-header section .language button .arrow-down em:before {
-		background-image: url(./assets/icons/small-arrow-down-white.svg)
+		background-image: url(/assets/icons/small-arrow-down-white.svg)
 	}
 }
 
@@ -13306,7 +13304,7 @@ app-home>.screen {
 
 app-home-new>.screen-main,
 app-home>.screen-main {
-	background-image: url(./assets/images/main-screen-3.jpg);
+	background-image: url(/assets/images/main-screen-3.jpg);
 	position: relative;
 	z-index: 3;
     background-position: top;
@@ -13315,25 +13313,25 @@ app-home>.screen-main {
 app-home-new>.screen-main.private,
 app-home-new>.screen-main.public,
 app-home>.screen-main.private, {
-	background-image: url(./assets/images/main-screen-3.jpg)
+	background-image: url(/assets/images/main-screen-3.jpg)
 }
 app-home>.screen-main.public {
-	background-image: url(./assets/images/main-screen.jpg)
+	background-image: url(/assets/images/main-screen.jpg)
 }
 
 app-home-new>.screen-blockchain section article:nth-of-type(1) span,
 app-home>.screen-blockchain section article:nth-of-type(1) span {
-	background-image: url(./assets/icons/icon-secure-your-data.svg)
+	background-image: url(/assets/icons/icon-secure-your-data.svg)
 }
 
 app-home-new>.screen-blockchain section article:nth-of-type(2) span,
 app-home>.screen-blockchain section article:nth-of-type(2) span {
-	background-image: url(./assets/icons/icon-increase.svg)
+	background-image: url(/assets/icons/icon-increase.svg)
 }
 
 app-home-new>.screen-blockchain section article:nth-of-type(3) span,
 app-home>.screen-blockchain section article:nth-of-type(3) span {
-	background-image: url(./assets/icons/icon-embrace-innovation.svg)
+	background-image: url(/assets/icons/icon-embrace-innovation.svg)
 }
 
 app-home-new>.screen-blockchain section article span,
@@ -14173,7 +14171,7 @@ app-about .screen {
 }
 
 app-about .screen-main {
-	background-image: url(./assets/images/about/main-screen.jpg);
+	background-image: url(/assets/images/about/main-screen.jpg);
 	position: relative;
 	z-index: 2
 }
@@ -14244,59 +14242,59 @@ app-government>* .btn-icon-close {
 app-government>* .screen-main {
 	padding-top: 180px;
 	height: 100vh;
-	background-image: url(./assets/images/government/main-screen.jpg)
+	background-image: url(/assets/images/government/main-screen.jpg)
 }
 
 app-government>* .screen-examples section article:nth-of-type(1) span {
-	background-image: url(./assets/icons/icon-digital-identity.svg)
+	background-image: url(/assets/icons/icon-digital-identity.svg)
 }
 
 app-government>* .screen-examples section article:nth-of-type(2) span {
-	background-image: url(./assets/icons/icon-business-licence-issurance.svg)
+	background-image: url(/assets/icons/icon-business-licence-issurance.svg)
 }
 
 app-government>* .screen-examples section article:nth-of-type(3) span {
-	background-image: url(./assets/icons/icon-land-registry.svg)
+	background-image: url(/assets/icons/icon-land-registry.svg)
 }
 
 app-government>* .screen-examples section article:nth-of-type(4) span {
-	background-image: url(./assets/icons/icon-vehicle-registry.svg)
+	background-image: url(/assets/icons/icon-vehicle-registry.svg)
 }
 
 app-government>* .screen-examples section article:nth-of-type(5) span {
-	background-image: url(./assets/icons/icon-contracts-management.svg)
+	background-image: url(/assets/icons/icon-contracts-management.svg)
 }
 
 app-government>* .screen-examples section article:nth-of-type(6) span {
-	background-image: url(./assets/icons/icon-supply-chain-management.svg)
+	background-image: url(/assets/icons/icon-supply-chain-management.svg)
 }
 
 app-government>* .screen-examples section article:nth-of-type(7) span {
-	background-image: url(./assets/icons/icon-education.svg)
+	background-image: url(/assets/icons/icon-education.svg)
 }
 
 app-government>* .screen-examples section article:nth-of-type(8) span {
-	background-image: url(./assets/icons/icon-digital-voting.svg)
+	background-image: url(/assets/icons/icon-digital-voting.svg)
 }
 
 app-government>* .screen-examples section article:nth-of-type(9) span {
-	background-image: url(./assets/icons/icon-tokenize-assets.svg)
+	background-image: url(/assets/icons/icon-tokenize-assets.svg)
 }
 
 app-government>* .screen-examples section article:nth-of-type(10) span {
-	background-image: url(./assets/icons/icon-wallets-for-financial-transactions.svg)
+	background-image: url(/assets/icons/icon-wallets-for-financial-transactions.svg)
 }
 
 app-government>* .screen-blockchain section article:nth-of-type(1) span {
-	background-image: url(./assets/icons/icon-secure-data.svg)
+	background-image: url(/assets/icons/icon-secure-data.svg)
 }
 
 app-government>* .screen-blockchain section article:nth-of-type(2) span {
-	background-image: url(./assets/icons/icon-transparent.svg)
+	background-image: url(/assets/icons/icon-transparent.svg)
 }
 
 app-government>* .screen-blockchain section article:nth-of-type(3) span {
-	background-image: url(./assets/icons/icon-speed.svg)
+	background-image: url(/assets/icons/icon-speed.svg)
 }
 
 app-government>* .screen-blockchain section article span {
@@ -14332,7 +14330,7 @@ app-business>* {
 app-business>* .screen-main {
 	padding-top: 180px;
 	height: 100vh;
-	background-image: url(./assets/images/business/main-screen.jpg)
+	background-image: url(/assets/images/business/main-screen.jpg)
 }
 
 app-business>* .screen-main * {
@@ -14345,55 +14343,55 @@ app-business>* .screen-main h5 {
 }
 
 app-business>* .screen-examples section article:nth-of-type(1) span {
-	background-image: url(./assets/icons/icon-digital-identity.svg)
+	background-image: url(/assets/icons/icon-digital-identity.svg)
 }
 
 app-business>* .screen-examples section article:nth-of-type(2) span {
-	background-image: url(./assets/icons/icon-business-licence-issurance.svg)
+	background-image: url(/assets/icons/icon-business-licence-issurance.svg)
 }
 
 app-business>* .screen-examples section article:nth-of-type(3) span {
-	background-image: url(./assets/icons/icon-asset-registry.svg)
+	background-image: url(/assets/icons/icon-asset-registry.svg)
 }
 
 app-business>* .screen-examples section article:nth-of-type(4) span {
-	background-image: url(./assets/icons/icon-contracts-management.svg)
+	background-image: url(/assets/icons/icon-contracts-management.svg)
 }
 
 app-business>* .screen-examples section article:nth-of-type(5) span {
-	background-image: url(./assets/icons/icon-supply-chain-management.svg)
+	background-image: url(/assets/icons/icon-supply-chain-management.svg)
 }
 
 app-business>* .screen-examples section article:nth-of-type(6) span {
-	background-image: url(./assets/icons/icon-education.svg)
+	background-image: url(/assets/icons/icon-education.svg)
 }
 
 app-business>* .screen-examples section article:nth-of-type(7) span {
-	background-image: url(./assets/icons/icon-digital-voting.svg)
+	background-image: url(/assets/icons/icon-digital-voting.svg)
 }
 
 app-business>* .screen-examples section article:nth-of-type(8) span {
-	background-image: url(./assets/icons/icon-tokenize-assets.svg)
+	background-image: url(/assets/icons/icon-tokenize-assets.svg)
 }
 
 app-business>* .screen-examples section article:nth-of-type(9) span {
-	background-image: url(./assets/icons/icon-wallets-for-financial-transactions.svg)
+	background-image: url(/assets/icons/icon-wallets-for-financial-transactions.svg)
 }
 
 app-business>* .screen-examples section article:nth-of-type(10) span {
-	background-image: url(./assets/icons/icon-transactions.svg)
+	background-image: url(/assets/icons/icon-transactions.svg)
 }
 
 app-business>* .screen-blockchain section article:nth-of-type(1) span {
-	background-image: url(./assets/icons/icon-secure-data.svg)
+	background-image: url(/assets/icons/icon-secure-data.svg)
 }
 
 app-business>* .screen-blockchain section article:nth-of-type(2) span {
-	background-image: url(./assets/icons/icon-transparent.svg)
+	background-image: url(/assets/icons/icon-transparent.svg)
 }
 
 app-business>* .screen-blockchain section article:nth-of-type(3) span {
-	background-image: url(./assets/icons/icon-speed.svg)
+	background-image: url(/assets/icons/icon-speed.svg)
 }
 
 app-business>* .screen-blockchain section article span {
@@ -14516,7 +14514,7 @@ app-career>* .screen-main {
 
 @media screen and (max-width:991px) {
 	app-career>* .screen-main {
-		background-image: url(./assets/images/career/poster.jpg)
+		background-image: url(/assets/images/career/poster.jpg)
 	}
 }
 
@@ -15600,15 +15598,15 @@ app-developers>* .screen-join .text {
 }
 
 app-developers>* .screen-blockchain section article:nth-of-type(1) span {
-	background-image: url(./assets/icons/icon-secure-data.svg)
+	background-image: url(/assets/icons/icon-secure-data.svg)
 }
 
 app-developers>* .screen-blockchain section article:nth-of-type(2) span {
-	background-image: url(./assets/icons/icon-transparent.svg)
+	background-image: url(/assets/icons/icon-transparent.svg)
 }
 
 app-developers>* .screen-blockchain section article:nth-of-type(3) span {
-	background-image: url(./assets/icons/icon-speed.svg)
+	background-image: url(/assets/icons/icon-speed.svg)
 }
 
 app-developers>* .screen-blockchain section article span {
@@ -15680,7 +15678,7 @@ app-land-registry .screen {
 }
 
 app-land-registry .screen-main {
-	background-image: url(./assets/images/cases/land-registry/main-screen.jpg)
+	background-image: url(/assets/images/cases/land-registry/main-screen.jpg)
 }
 
 app-land-registry .screen-main h4 {
@@ -15947,7 +15945,7 @@ app-supply-chain .screen {
 }
 
 app-supply-chain .screen-main {
-	background-image: url(./assets/images/cases/supply-chain/main-screen.jpg)
+	background-image: url(/assets/images/cases/supply-chain/main-screen.jpg)
 }
 
 app-supply-chain .screen-main h4 {
@@ -16155,19 +16153,19 @@ app-supply-chain .screen-extra section article {
 }
 
 app-supply-chain .screen-extra section article:nth-of-type(1) span {
-	background-image: url(./assets/icons/icon-securitycode.svg)
+	background-image: url(/assets/icons/icon-securitycode.svg)
 }
 
 app-supply-chain .screen-extra section article:nth-of-type(2) span {
-	background-image: url(./assets/icons/icon-radio.svg)
+	background-image: url(/assets/icons/icon-radio.svg)
 }
 
 app-supply-chain .screen-extra section article:nth-of-type(3) span {
-	background-image: url(./assets/icons/icon-geolocation.svg)
+	background-image: url(/assets/icons/icon-geolocation.svg)
 }
 
 app-supply-chain .screen-extra section article:nth-of-type(4) span {
-	background-image: url(./assets/icons/icon-soft.svg)
+	background-image: url(/assets/icons/icon-soft.svg)
 }
 
 app-supply-chain .screen-extra section article span {
@@ -16242,23 +16240,23 @@ app-supply-chain .screen-examples section article {
 }
 
 app-supply-chain .screen-examples section article:nth-of-type(1) span {
-	background-image: url(./assets/icons/icon-supply-chain-management.svg)
+	background-image: url(/assets/icons/icon-supply-chain-management.svg)
 }
 
 app-supply-chain .screen-examples section article:nth-of-type(2) span {
-	background-image: url(./assets/icons/icon-reduce-cost.svg)
+	background-image: url(/assets/icons/icon-reduce-cost.svg)
 }
 
 app-supply-chain .screen-examples section article:nth-of-type(3) span {
-	background-image: url(./assets/icons/icon-time.svg)
+	background-image: url(/assets/icons/icon-time.svg)
 }
 
 app-supply-chain .screen-examples section article:nth-of-type(4) span {
-	background-image: url(./assets/icons/icon-increase.svg)
+	background-image: url(/assets/icons/icon-increase.svg)
 }
 
 app-supply-chain .screen-examples section article:nth-of-type(5) span {
-	background-image: url(./assets/icons/icon-goverment-trust.svg)
+	background-image: url(/assets/icons/icon-goverment-trust.svg)
 }
 
 app-supply-chain .screen-status {
@@ -16304,7 +16302,7 @@ app-vehicle-registry .screen {
 }
 
 app-vehicle-registry .screen-main {
-	background-image: url(./assets/images/cases/vehicle-registry/main-screen-3.jpg)
+	background-image: url(/assets/images/cases/vehicle-registry/main-screen-3.jpg)
 }
 
 app-vehicle-registry .screen-main h1 {
@@ -16579,7 +16577,7 @@ app-vehicle-registry .screen-solution>*>section article div em {
 	flex: auto;
 	display: block;
 	height: 27px;
-	background-image: url(./assets/images/cases/arrow.svg);
+	background-image: url(/assets/images/cases/arrow.svg);
 	background-repeat: no-repeat;
 	background-position: right center;
 	background-size: auto 27px
@@ -16605,7 +16603,7 @@ app-vehicle-registry .screen-solution>*>section article p {
 
 app-vehicle-registry .screen-solution>*>section article:nth-of-type(1) div span {
 	width: 94px;
-	background-image: url(./assets/images/cases/vehicle-registry/icon-process-1.svg);
+	background-image: url(/assets/images/cases/vehicle-registry/icon-process-1.svg);
 	background-size: 94px 97px
 }
 
@@ -16617,30 +16615,30 @@ app-vehicle-registry .screen-solution>*>section article:nth-of-type(2) div:befor
 	min-width: 128px;
 	max-width: 128px;
 	height: 244px;
-	background-image: url(./assets/images/cases/vehicle-registry/icon-process-2-1.svg);
+	background-image: url(/assets/images/cases/vehicle-registry/icon-process-2-1.svg);
 	background-repeat: no-repeat;
 	background-position: right center;
 	background-size: 128px 244px
 }
 
 app-vehicle-registry .screen-solution>*>section article:nth-of-type(2) div span {
-	background-image: url(./assets/images/cases/vehicle-registry/icon-process-2.svg);
+	background-image: url(/assets/images/cases/vehicle-registry/icon-process-2.svg);
 	background-size: 128px 120px
 }
 
 app-vehicle-registry .screen-solution>*>section article:nth-of-type(3) div span {
-	background-image: url(./assets/images/cases/vehicle-registry/icon-process-3.svg);
+	background-image: url(/assets/images/cases/vehicle-registry/icon-process-3.svg);
 	background-size: 128px 120px
 }
 
 app-vehicle-registry .screen-solution>*>section article:nth-of-type(4) div span {
-	background-image: url(./assets/images/cases/vehicle-registry/icon-process-4.svg);
+	background-image: url(/assets/images/cases/vehicle-registry/icon-process-4.svg);
 	background-size: 128px 120px
 }
 
 app-vehicle-registry .screen-solution>*>section article:nth-of-type(5) div span {
 	width: 70px;
-	background-image: url(./assets/images/cases/vehicle-registry/icon-process-5.svg);
+	background-image: url(/assets/images/cases/vehicle-registry/icon-process-5.svg);
 	background-size: 70px 64px
 }
 
@@ -16664,15 +16662,15 @@ app-vehicle-registry .screen-outcome section:nth-of-type(2) article {
 }
 
 app-vehicle-registry .screen-outcome section:nth-of-type(2) article:nth-of-type(1) span {
-	background-image: url(./assets/icons/icon-reduce-cost.svg)
+	background-image: url(/assets/icons/icon-reduce-cost.svg)
 }
 
 app-vehicle-registry .screen-outcome section:nth-of-type(2) article:nth-of-type(2) span {
-	background-image: url(./assets/icons/icon-increase.svg)
+	background-image: url(/assets/icons/icon-increase.svg)
 }
 
 app-vehicle-registry .screen-outcome section:nth-of-type(2) article:nth-of-type(3) span {
-	background-image: url(./assets/icons/icon-goverment-trust.svg)
+	background-image: url(/assets/icons/icon-goverment-trust.svg)
 }
 
 app-vehicle-registry .screen-status {
@@ -16718,7 +16716,7 @@ app-music-copyright .screen {
 }
 
 app-music-copyright .screen-main {
-	background-image: url(./assets/images/cases//music-copyright/main-screen.jpg)
+	background-image: url(/assets/images/cases//music-copyright/main-screen.jpg)
 }
 
 app-music-copyright .screen-main h4 {
@@ -16950,23 +16948,23 @@ app-music-copyright .screen-examples section article {
 }
 
 app-music-copyright .screen-examples section article:nth-of-type(1) span {
-	background-image: url(./assets/icons/icon-goverment-trust.svg)
+	background-image: url(/assets/icons/icon-goverment-trust.svg)
 }
 
 app-music-copyright .screen-examples section article:nth-of-type(2) span {
-	background-image: url(./assets/icons/icon-happy-planet.svg)
+	background-image: url(/assets/icons/icon-happy-planet.svg)
 }
 
 app-music-copyright .screen-examples section article:nth-of-type(3) span {
-	background-image: url(./assets/icons/icon-music.svg)
+	background-image: url(/assets/icons/icon-music.svg)
 }
 
 app-music-copyright .screen-examples section article:nth-of-type(4) span {
-	background-image: url(./assets/icons/icon-transactions.svg)
+	background-image: url(/assets/icons/icon-transactions.svg)
 }
 
 app-music-copyright .screen-examples section article:nth-of-type(5) span {
-	background-image: url(./assets/icons/icon-embrace-innovation.svg)
+	background-image: url(/assets/icons/icon-embrace-innovation.svg)
 }
 
 app-music-copyright .screen-status {
@@ -17042,7 +17040,7 @@ app-survey-poll .screen {
 }
 
 app-survey-poll .screen-main {
-	background-image: url(./assets/images/cases/survey-poll/main-screen.jpg)
+	background-image: url(/assets/images/cases/survey-poll/main-screen.jpg)
 }
 
 app-survey-poll .screen-main h4 {
@@ -17054,7 +17052,7 @@ app-survey-poll .screen-background {
 }
 
 app-survey-poll .screen-problems section ul {
-	background-image: url(./assets/icons/brace-xs.svg);
+	background-image: url(/assets/icons/brace-xs.svg);
 	background-repeat: no-repeat;
 	background-position: right 45px top;
 	background-size: 42px 100%;
@@ -17077,7 +17075,7 @@ app-survey-poll .screen-problems section ul:after {
 	bottom: 0;
 	width: 40px;
 	height: 36px;
-	background-image: url(./assets/icons/icon-border.svg);
+	background-image: url(/assets/icons/icon-border.svg);
 	background-repeat: no-repeat;
 	background-position: 0 0;
 	background-size: 100% 100%;
@@ -17366,19 +17364,19 @@ app-survey-poll .screen-extra section article {
 }
 
 app-survey-poll .screen-extra section article:nth-of-type(1) span {
-	background-image: url(./assets/icons/icon-securitycode.svg)
+	background-image: url(/assets/icons/icon-securitycode.svg)
 }
 
 app-survey-poll .screen-extra section article:nth-of-type(2) span {
-	background-image: url(./assets/icons/icon-radio.svg)
+	background-image: url(/assets/icons/icon-radio.svg)
 }
 
 app-survey-poll .screen-extra section article:nth-of-type(3) span {
-	background-image: url(./assets/icons/icon-geolocation.svg)
+	background-image: url(/assets/icons/icon-geolocation.svg)
 }
 
 app-survey-poll .screen-extra section article:nth-of-type(4) span {
-	background-image: url(./assets/icons/icon-soft.svg)
+	background-image: url(/assets/icons/icon-soft.svg)
 }
 
 app-survey-poll .screen-extra section article span {
@@ -17432,15 +17430,15 @@ app-survey-poll .screen-examples section article {
 }
 
 app-survey-poll .screen-examples section article:nth-of-type(1) span {
-	background-image: url(./assets/icons/icon-survey.svg)
+	background-image: url(/assets/icons/icon-survey.svg)
 }
 
 app-survey-poll .screen-examples section article:nth-of-type(2) span {
-	background-image: url(./assets/icons/icon-eye.svg)
+	background-image: url(/assets/icons/icon-eye.svg)
 }
 
 app-survey-poll .screen-examples section article:nth-of-type(3) span {
-	background-image: url(./assets/icons/icon-goverment-trust.svg)
+	background-image: url(/assets/icons/icon-goverment-trust.svg)
 }
 
 app-survey-poll .screen-potential {
@@ -17528,7 +17526,7 @@ app-financial-sector .screen {
 }
 
 app-financial-sector .screen-main {
-	background-image: url(./assets/images/cases/financial-sector/main-screen.jpg)
+	background-image: url(/assets/images/cases/financial-sector/main-screen.jpg)
 }
 
 app-financial-sector .screen-main h4 {
@@ -17540,7 +17538,7 @@ app-financial-sector .screen-background {
 }
 
 app-financial-sector .screen-problems section ul {
-	background-image: url(./assets/icons/brace.svg);
+	background-image: url(/assets/icons/brace.svg);
 	background-repeat: no-repeat;
 	background-position: right 45px top;
 	background-size: 42px 100%
@@ -17562,7 +17560,7 @@ app-financial-sector .screen-problems section ul:after {
 	bottom: 0;
 	width: 40px;
 	height: 36px;
-	background-image: url(./assets/icons/icon-border.svg);
+	background-image: url(/assets/icons/icon-border.svg);
 	background-repeat: no-repeat;
 	background-position: 0 0;
 	background-size: 100% 100%;
@@ -17851,19 +17849,19 @@ app-financial-sector .screen-extra section article {
 }
 
 app-financial-sector .screen-extra section article:nth-of-type(1) span {
-	background-image: url(./assets/icons/icon-securitycode.svg)
+	background-image: url(/assets/icons/icon-securitycode.svg)
 }
 
 app-financial-sector .screen-extra section article:nth-of-type(2) span {
-	background-image: url(./assets/icons/icon-radio.svg)
+	background-image: url(/assets/icons/icon-radio.svg)
 }
 
 app-financial-sector .screen-extra section article:nth-of-type(3) span {
-	background-image: url(./assets/icons/icon-geolocation.svg)
+	background-image: url(/assets/icons/icon-geolocation.svg)
 }
 
 app-financial-sector .screen-extra section article:nth-of-type(4) span {
-	background-image: url(./assets/icons/icon-soft.svg)
+	background-image: url(/assets/icons/icon-soft.svg)
 }
 
 app-financial-sector .screen-extra section article span {
@@ -17961,19 +17959,19 @@ app-financial-sector .screen-examples section article {
 }
 
 app-financial-sector .screen-examples section article:nth-of-type(1) span {
-	background-image: url(./assets/icons/icon-happy-planet.svg)
+	background-image: url(/assets/icons/icon-happy-planet.svg)
 }
 
 app-financial-sector .screen-examples section article:nth-of-type(2) span {
-	background-image: url(./assets/icons/icon-lightning.svg)
+	background-image: url(/assets/icons/icon-lightning.svg)
 }
 
 app-financial-sector .screen-examples section article:nth-of-type(3) span {
-	background-image: url(./assets/icons/icon-tokenize-assets.svg)
+	background-image: url(/assets/icons/icon-tokenize-assets.svg)
 }
 
 app-financial-sector .screen-examples section article:nth-of-type(4) span {
-	background-image: url(./assets/icons/icon-transactions.svg)
+	background-image: url(/assets/icons/icon-transactions.svg)
 }
 
 app-financial-sector .screen-potential {
@@ -18061,7 +18059,7 @@ app-business-licensing .screen {
 }
 
 app-business-licensing .screen-main {
-	background-image: url(./assets/images/cases/business-licensing/main-screen.jpg)
+	background-image: url(/assets/images/cases/business-licensing/main-screen.jpg)
 }
 
 app-business-licensing .screen-main h4 {
@@ -18077,7 +18075,7 @@ app-business-licensing .screen-client>* div article {
 }
 
 app-business-licensing .screen-problems section ul {
-	background-image: url(./assets/icons/brace.svg);
+	background-image: url(/assets/icons/brace.svg);
 	background-repeat: no-repeat;
 	background-position: right 45px top;
 	background-size: 42px 100%
@@ -18099,7 +18097,7 @@ app-business-licensing .screen-problems section ul:after {
 	bottom: 0;
 	width: 40px;
 	height: 36px;
-	background-image: url(./assets/icons/icon-border.svg);
+	background-image: url(/assets/icons/icon-border.svg);
 	background-repeat: no-repeat;
 	background-position: 0 0;
 	background-size: 100% 100%;
@@ -18388,19 +18386,19 @@ app-business-licensing .screen-extra section article {
 }
 
 app-business-licensing .screen-extra section article:nth-of-type(1) span {
-	background-image: url(./assets/icons/icon-documents.svg)
+	background-image: url(/assets/icons/icon-documents.svg)
 }
 
 app-business-licensing .screen-extra section article:nth-of-type(2) span {
-	background-image: url(./assets/icons/icon-dovernment-trust.svg)
+	background-image: url(/assets/icons/icon-dovernment-trust.svg)
 }
 
 app-business-licensing .screen-extra section article:nth-of-type(3) span {
-	background-image: url(./assets/icons/icon-happy-planet.svg)
+	background-image: url(/assets/icons/icon-happy-planet.svg)
 }
 
 app-business-licensing .screen-extra section article:nth-of-type(4) span {
-	background-image: url(./assets/icons/icon-supply-chain-management.svg)
+	background-image: url(/assets/icons/icon-supply-chain-management.svg)
 }
 
 app-business-licensing .screen-extra section article span {
@@ -18498,19 +18496,19 @@ app-business-licensing .screen-examples section article {
 }
 
 app-business-licensing .screen-examples section article:nth-of-type(1) span {
-	background-image: url(./assets/icons/icon-documents.svg)
+	background-image: url(/assets/icons/icon-documents.svg)
 }
 
 app-business-licensing .screen-examples section article:nth-of-type(2) span {
-	background-image: url(./assets/icons/icon-goverment-trust.svg)
+	background-image: url(/assets/icons/icon-goverment-trust.svg)
 }
 
 app-business-licensing .screen-examples section article:nth-of-type(3) span {
-	background-image: url(./assets/icons/icon-happy-planet.svg)
+	background-image: url(/assets/icons/icon-happy-planet.svg)
 }
 
 app-business-licensing .screen-examples section article:nth-of-type(4) span {
-	background-image: url(./assets/icons/icon-supply-chain-management.svg)
+	background-image: url(/assets/icons/icon-supply-chain-management.svg)
 }
 
 app-business-licensing .screen-potential {
