@@ -7173,7 +7173,7 @@ video::-webkit-media-text-track-display {
 .slick-dotted.slick-slider {
 	margin-bottom: 30px
 }
-
+/* 
 .slick-dots {
 	position: absolute;
 	list-style: none;
@@ -7207,7 +7207,7 @@ video::-webkit-media-text-track-display {
 	color: transparent;
 	padding: 5px;
 	cursor: pointer
-}
+} */
 
 .slick-dots li button:focus,
 .slick-dots li button:hover {
@@ -8793,7 +8793,7 @@ form .form-success.show {
 }
 
 .screen-use-case .left-button {
-	margin-bottom: 63px;
+	margin-top: -45px;
 }
 
 .screen-use-case .fancybox-iframe {
@@ -10019,7 +10019,7 @@ form .form-success.show {
 
 .screen-use-case {
 	padding-top: 80px;
-	padding-bottom: 0;
+	padding-bottom: 80px;
 }
 
 @media screen and (max-width:991px) {
