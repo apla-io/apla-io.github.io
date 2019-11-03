@@ -7565,7 +7565,8 @@ u {
 ul li {
 	position: relative;
 	padding-left: 30px;
-	padding-right: 25px
+	padding-right: 25px;
+	margin-top: 10px;
 }
 
 @media screen and (max-width:991px) {
@@ -8824,14 +8825,15 @@ form .form-success.show {
 
 @media (min-width:992px) {
 	.screen-invention section>* {
-		width: 33.33%;
+		width: 25%;
 		padding-right: 25px;
 		justify-content: right;
 	}
 }
 
 .screen-invention section .item {
-	text-align: left
+	text-align: left;
+	margin-bottom: 40px;
 }
 
 .screen-invention section .item .icon {
@@ -8842,6 +8844,11 @@ form .form-success.show {
 
 .screen-invention section .item h4 {
 	margin-bottom: 30px
+}
+
+.screen-invention h6 {
+    margin-bottom: 40px;
+    margin-top: 20px;
 }
 
 @media screen and (max-width:991px) {
