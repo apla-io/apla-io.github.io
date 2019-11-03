@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Apla - Blockchain Platform for accelerating technological progress</title>
+  <base href="/">
+  <meta name="keywords" content="">
+  <meta name="description" content="Public blockchain platform for building digital ecosystems">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+  <link rel="manifest" href="favicons/manifest.json">
+  <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="favicons/favicon.ico?v=123421">
+  <meta name="msapplication-config" content="favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  <link href="css/style.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+
+  <script>
+    var curr_lang_code = "en";
+    var lang_codes = {};
+    lang_codes["en"] = "en";
+    lang_codes["de"] = "de";
+    lang_codes["fr"] = "fr";
+    lang_codes["hr"] = "hr";
+    lang_codes["ru"] = "ru";
+    lang_codes["zh"] = "zh";
+    lang_codes["ko"] = "ko";
+    lang_codes["ja"] = "ja";
+    lang_codes["th"] = "th";
+    lang_codes["es"] = "es";
+    lang_codes["pt"] = "pt";
+  </script>
+  <link rel="stylesheet" type="text/css"
+    href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+  <script>
+    window.addEventListener("load", function () {
+      window.cookieconsent.initialise({
+        "palette": {
+          "popup": {
+            "background": "#ffffff",
+            "text": "#000000"
+          },
+          "button": {
+            "background": "#3ac28b",
+            "text": "#ffffff"
+          }
+        },
+        "theme": "edgeless",
+        "content": {
+          "href": "/download/Privacy_and_Cookies_Policy.pdf"
+        }
+      })
+    });
+  </script>
+</head>
+
+<body class="en">
+  <app-header><a class="logo" href="/" data-click="isActive = false"></a><a name="top"></a>
+    <section>
+      <nav>
+        <a href="#">Pricing</a>
+        <div class="dropdown">
+        <a>Resources</a>
+        <div class="dropdown-content">
+            <a href="#">Product Manual</a>
+            <a href="#">White Papers</a>
+            <a href="#">Case Studies</a>
+
+          </div>
+        </div>
+        <a class="openpopupform text-warning">Free Trial</a>
+      </nav>
+      <div class="language">
+        <button mat-icon-button="MenuStatus() ? 'active' : ''">!= $i18n.LANGUAGE<span
+            class="arrow arrow-down"><em></em></span></button>
+      </div>
+    </section>
+    <div class="menu" data-click="ShowMenu()">
+      <div class="patty"></div>
+    </div>
+  </app-header>
+  <app-home>
+    <div class="screen-main private">
+      <div class="container">
+        <h1>A Radically Better Board Portal</h1>
+        <h4>Apla X-Reg is Enterprise Governance Software based on award-winning blockchain technology and designed for Board
+          members, C-Suite and Governance executives</h4>
+      </div>
+    </div>
+    <div class="screen-invention" style="background-color: #4d4d4d0d;">
+      <div class="container">
+
+        <h2>Security and immutability of meetings' results</h2>
+        <div class="video">
+          <p>It's easy to start and easy to use. The platform’s intuitive interface and robust security features allow
+            boards and leadership teams to work together more efficiently, productively, and strategically</p>
+          <div class="video-button">
+            <a class="btn-whitepaper" href="#" target="_blank">Watch the video</a>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="screen-use-case">
+          <div class="container">
+        <div class="single-item">    
+          <div>
+              <h2>Efficient meeting management</h2>
+              <section>
+                <div class="left">
+                    <div class="article">
+                        <div class="p">
+                  <ul>
+                    <li>Access boards meetings in several companies from one place</li>
+                    <li>Get notified of upcoming meetings and attend remotely</li>
+                    <li>Create multi-day meetings in seconds- add details, attach files and track attendance</li>
+                  </ul>
+                  </div>
+                  </div>
+                </div>
+                <div class="right">
+                  <img style="max-width: 60%" alt="" src="/assets/images/screen_1.jpg">
+                </div>
+              </section>
+            </div>
+          <div>
+              <h2>Improved document manangement</h2>
+              <section>
+                <div class="left">
+                    <div class="article">
+                        <div class="p">
+                  <ul>
+                    <li>Sign documents with e-signature</li>
+                    <li>Access past or current meetings documents in one-click</li>
+                    <li>Review materials before the meeting, leave comments to colleagues</li>
+                  </ul>
+                </div>
+              </div>
+                </div>
+                <div class="right">
+                  <img style="max-width: 60%" alt="" src="/assets/images/screen_2.jpg">
+                </div>
+              </section>
+          </div>
+          <div>
+              <h2>Increased voting security</h2>
+              <section>
+                <div class="left">
+                    <div class="article">
+                        <div class="p">
+                  <ul>
+                    <li>Issue proxy easily</li>
+                    <li>Cast your votes securely from any place</li>
+                    <li>Share immutable voting records with auditors</li>
+                  </ul>
+                </div>
+              </div>
+                </div>
+                <div class="right">
+                  <img style="max-width: 60%" alt="" src="/assets/images/screen_3.png">
+                </div>
+              </section>
+          </div>
+          <div>
+              <h2>Easy collaboration between members </h2>
+              <section>
+                <div class="left">
+                    <div class="article">
+                        <div class="p">
+                  <ul>
+                    <li>Exchange instant messaging </li>
+                    <li>Share notes, comments to meeting documents</li>
+                    <li>Auto sync across all devices</li>
+                  </ul>
+                </div>
+              </div>
+                </div>
+                <div class="right">
+                  <img style="max-width: 60%" alt="" src="/assets/images/screen_4.png">
+                </div>
+              </section>
+          </div>
+        </div>
+          <div class="left-button">
+              <a class="btn-whitepaper openpopupform" target="_blank">Learn more</a>
+            </div>
+        </div>
+        
+
+      </div>
+
+      <div class="screen-use-case" style="background-color: #4d4d4d0d;">
+          <div class="container">
+            <h2>Corporate engagement is crucial for every organization</h2>
+            <div class="video">
+                <section>
+                <div class="left">
+                    <div class="article">
+                        <div class="p">
+             From non-profit to banks and fiduciary offices, Apla xReg can help every company that has board of directors
+             </div>
+             </div>
+          
+                </div>
+              <div class="right">
+                  <img style="max-width: 60%" alt="" src="/assets/images/screen-logos.png">
+                </div>
+                </section>
+              <div class="left-button">
+                <a class="btn-whitepaper openpopupform" target="_blank">Start free trial</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="screen-use-case">
+            <div class="container">
+              <h2>Make voting results rock solid with Consortium Network</h2>
+              <div class="video">
+                  <section>
+                      <div class="left">
+                          <div class="article">
+                              <div class="p" style="max-width: none;">
+                Enable immutability for legally significant transactions originated in X-REG Service Providers networks
+                          </div>
+                          </div>
+                        </div>
+                  </section>
+                <div class="left-button">
+                  <a class="btn-whitepaper" href="https://explore.consortium-network.org/" target="_blank">Check hash</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        <div class="screen-clients2">
+            <div class="container">
+              <h4 class ="text-black">Consortium Network Members</h4>
+              <section>
+               <a class="top" href="https://apla.io" target="_blank"><img src="/assets/images/clients/apla.jpg" alt=""></a><a class="top" href="http://stampify.lu" target="_blank"><img src="/assets/images/clients/stampify.png" alt=""></a><a class="top" target="_blank"><img src="/assets/images/clients/nid.png" alt=""></a> <a class="top" href="https://www.grantthornton.com/" target="_blank"><img src="/assets/images/clients/gt.png" alt=""></a>
+              </section>
+            </div>
+          </div>
+
+          <div class="screen-use-case " style="background-color: #4d4d4d0d;">
+              <div class="container">
+                <h2>Going paperless we commit to the planet</h2>
+                <section>
+                  <div class="left">
+                    <div class="article">
+                      <div class="p">Forests serve as the Earth’s lungs, absorbing carbon emissions and releasing oxygen back into the atmosphere. In other words, forests both clean the air and provide us with the oxygen we breathe. In fact, more than 20% of the world’s breathable oxygen is produced in the Amazon rainforest alone.</div>
+                    </div>
+                  </div>
+                  <div class="right">
+                      <div class="video video-section">
+                        <div class="video-wrapper">
+                            <div class="fancybox-inner" style="overflow: auto; width: auto; height: 330px;     margin-bottom: 63px;">
+                            <iframe id="fancybox-frame1572735256762" name="fancybox-frame1572735256762" class="fancybox-iframe" frameborder="0" vspace="0" hspace="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" scrolling="auto" src="https://fast.wistia.net/embed/iframe/ao30uhua6w?autoPlay=false&amp;videoFoam=true"></iframe>   
+                            </div>
+                      </div>
+                    <!-- <div class="descr">Corporate governance solution on blockchain for companies, law firms and fiduciary agencies</div> -->
+                  </div>
+                </section>
+              </div>
+            </div>
+
+      <!-- <app-newsletter>
+        <div class="container">
+          <div>
+            <h4 class="text-black">Receive our newsletter</h4>
+            <p>Get exclusive content delivered right into your inbox.</p><a class="privacy"
+              href="/download/Privacy_and_Cookies_Policy.pdf">Privacy policy</a>
+          </div>
+          <form action="https://apla.us14.list-manage.com/subscribe/post" method="POST" novalidate="">
+            <input type="hidden" name="u" value="faae7c4986fbd132a2e5feb14">
+            <input type="hidden" name="id" value="3667007bd1">
+            <div class="form-group"><small class="form-control-feedback"><span class="required">E-mail is
+                  required.</span><span class="incorrect">Incorrect e-mail address!</span></small>
+              <input class="form-control" placeholder="E-mail" type="email" name="MERGE0"><span
+                class="form-control-focus"></span>
+            </div>
+            <button class="btn" type="submit" name="submit">SUBSCRIBE</button>
+            <div class="form-process">Please wait...
+            </div>
+            <div class="form-success">Thank you!
+            </div>
+            <div class="form-duplicate"><small>You are already subscribed to newsletter!</small>
+            </div>
+            <div class="form-error">Error... <small>Please try again later</small>
+            </div>
+          </form>
+        </div>
+      </app-newsletter> -->
+      <app-developers class="public">
+          <section>
+      <div class="screen-join">
+          <div class="container">
+            <div class="w">
+              <h2>Reinvent board experience with Apla</h2>
+              <!-- <a class="link1" href="https://t.me/apla_project" target="_blank"><img src="/assets/icons/telegram_white.svg"> -->
+                <!-- <div class="wrap">@apla_project</div></a> -->
+            </div>
+            <!-- <div class="text">We use Telegram for communication.<br>Any question, idea or feedback?</div> -->
+            <a class="link link-2 openpopupform" target="_blank">Get started</a>
+          </div>
+        </div>
+</section>
+</div>
+      <app-popupform>
+        <div class="popup-form-wrapper">
+          <div class="backdrop"></div>
+          <div class="popup-form">
+            <form id="getstarted" novalidate="">
+              <div class="head">
+                <h4 class="text-black">Tell us about your needs</h4>
+                <p>and we will come up with a personalized solution</p>
+              </div>
+              <div class="form-body">
+                <div class="form-group"><small class="form-control-feedback"><span class="required">Name is
+                      required.</span></small>
+                  <input class="form-control" placeholder="Your name *" type="text" name="name" required><span
+                    class="form-control-focus"></span>
+                </div>
+                <div class="form-group"><small class="form-control-feedback"><span class="required">Email is
+                      required.</span><span class="incorrect">Incorrect email address!</span></small>
+                  <input class="form-control email-input" placeholder="Your email *" type="email" name="email" required
+                    pattern="\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+"><span class="form-control-focus"></span>
+                </div>
+                <div class="form-group"><small class="form-control-feedback"><span class="required">Message is
+                      required.</span></small>
+                  <textarea class="form-control" rows="5" placeholder="Your message *" name="message"
+                    required></textarea><span class="form-control-focus"></span>
+                </div>
+                <button class="btn" type="submit" disabled>Send message</button>
+              </div>
+              <div class="form-process">Please wait...
+              </div>
+              <div class="form-success">Thank you!
+              </div>
+              <div class="form-duplicate">
+              </div>
+              <div class="form-error">Error... <small>Please try again later</small>
+              </div>
+            </form>
+          </div>
+        </div>
+      </app-popupform>
+      <app-footer>
+        <div class="screen-map" *ngif="map">
+          <div class="container">
+            <h2>Contact us</h2>
+            <agm-map [latitude]="false">
+            </agm-map>
+          </div>
+        </div>
+        <div class="container">
+          <nav>
+            <a class="logo-footer" href="/"></a>
+          </nav>
+          <section>
+            <article>
+              <h5>Luxembourg</h5><small>20 Rue de Bitbourg, L1273<br>Luxembourg<br><a
+                  href="mailto:luxembourg@apla.io">luxembourg@apla.io</a></small>
+            </article>
+          </section>
+          <footer>
+            <div class="soc"><a class="btn-icon btn-icon-black" href="https://www.facebook.com/AplaBlockchain/"
+                target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a><a class="btn-icon btn-icon-black"
+                href="https://twitter.com/AplaBlockchain" target="_blank"><i class="fa fa-twitter"
+                  aria-hidden="true"></i></a><a class="btn-icon btn-icon-black" href="https://blog.apla.io/"
+                target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a><a class="btn-icon btn-icon-black"
+                href="https://t.me/apla_project" target="_blank"><i class="fa fa-paper-plane"
+                  aria-hidden="true"></i></a><a class="btn-icon btn-icon-black"
+                href="https://github.com/AplaProject/go-apla/" target="_blank"><i class="fa fa-github"
+                  aria-hidden="true"></i></a><a class="btn-icon btn-icon-black"
+                href="https://www.youtube.com/channel/UCLAccwf_YvWGnxSIVgGtl7g" target="_blank"><i class="fa fa-youtube"
+                  aria-hidden="true"></i></a><a class="btn-icon btn-icon-black"
+                href="https://www.linkedin.com/company/apla-blockchain/" target="_blank"><i class="fa fa-linkedin"
+                  aria-hidden="true"></i></a>
+            </div><small>&copy; 2019 Apla, All Rights Reserved.</small>
+          </footer>
+        </div>
+      </app-footer>
+      <div class="team-rotator-popup"></div>
+      <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+      <script src="/js/main.bundle.js"></script>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106094666-1"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+          dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-106094666-1');
+      </script>
+      <script type="text/javascript">
+        $(".single-item").slick({
+          dots: true
+        });
+      </script>
+  </app-home>
+</body>
