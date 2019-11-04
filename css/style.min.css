@@ -10084,7 +10084,7 @@ form .form-success.show {
 	align-content: flex-start;
 	-ms-flex-align: start;
 	align-items: flex-start;
-	margin-right: -25px;
+	/* margin-right: -25px; */
 	margin-top:30px;
 }
 
@@ -10187,8 +10187,22 @@ form .form-success.show {
 	margin-bottom: 40px;
 }
 
+.screen-use-case .single-item section .right {
+	-ms-flex: 50%;
+	flex: 50%;
+	margin-bottom: none;
+    margin-top: -100px;
+}
+
+@media screen and (max-width:991px) {
+	.screen-use-case section .right {
+		flex: 50%;
+		margin-bottom: 40px;
+	}
+}
+
 /* .screen-use-case section .right img {
-	margin-left: 140px;
+	margin-top: -90px;
 } */
 
 
