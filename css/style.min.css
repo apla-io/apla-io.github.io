@@ -7517,6 +7517,15 @@ a.text-warning {
 	color: #f94C7A
 }
 
+span.offer-warning {
+	color: #f94C7A;
+	font-weight:bold;
+}
+
+span.offer {
+	font-weight:bold;
+}
+
 @media (min-width:992px) {
 	a {
 		transition-property: border, background-color, color, opacity;
@@ -7586,6 +7595,11 @@ ul li:before {
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: 100% 100%
+}
+
+ul.slick-dots li:before {
+	position: absolute;
+	background-image: none;
 }
 
 #loading-bar {
@@ -8779,7 +8793,7 @@ form .form-success.show {
 
 .screen-invention .video {
 	padding-top: 30px;
-	padding-bottom: 100px
+	margin-bottom: 50px;
 }
 
 .screen-invention .video .video-button {
@@ -8791,6 +8805,13 @@ form .form-success.show {
 .screen-invention .left-button {
 	text-align: left;
 	padding-top: 60px;
+}
+
+
+.screen-use-case .left .left-button {
+	text-align: left;
+	padding-top: 60px; 
+	/* margin-top: 35px; */
 }
 
 /* assets */
@@ -10077,7 +10098,7 @@ form .form-success.show {
 	-ms-flex: 50%;
 	flex: 50%;
 	display: -ms-flexbox;
-	display: flex;
+	display: inline;
 	-ms-flex-direction: row;
 	flex-direction: row;
 	-ms-flex-wrap: wrap;
@@ -10158,12 +10179,13 @@ form .form-success.show {
 
 .screen-use-case section .right {
 	-ms-flex: 50%;
-	flex: 50%
+	flex: 50%;
+	margin-bottom: 40px;
 }
 
-.screen-use-case section .right img {
+/* .screen-use-case section .right img {
 	margin-left: 140px;
-}
+} */
 
 
 .screen-use-case section .right .descr {
@@ -12997,8 +13019,8 @@ app-header {
 		right: 0;
 		top: 0;
 		bottom: 0;
-		background-color: #FFF;
-		box-shadow: 0 4px 8px 0 rgba(206, 206, 206, .5);
+		/* background-color: rgb(0, 0, 0); */
+		/* box-shadow: 0 4px 8px 0 rgba(206, 206, 206, .5); */
 		z-index: 2
 	}
 }
@@ -19231,3 +19253,141 @@ app-footer footer .soc a {
 		height: auto
 	}
 }
+
+
+
+div.table-title {
+	display: block;
+   margin: auto;
+   /* max-width: 600px; */
+   padding:5px;
+   width: 100%;
+ }
+ 
+ .table-title h3 {
+	color: #fafafa;
+	font-size: 30px;
+	font-weight: 400;
+	font-style:normal;
+	font-family: "Roboto", helvetica, arial, sans-serif;
+	text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+	text-transform:uppercase;
+ }
+ 
+ 
+ /*** Table Styles **/
+ 
+ .table-fill {
+   background: white;
+   border-radius:3px;
+   border-collapse: collapse;
+   height: 320px;
+   margin: auto;
+   /* max-width: 600px;  */
+   padding:5px;
+   width: 100%;
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+   animation: float 5s infinite;
+   margin-bottom: 50px;
+ }
+  
+ th {
+   color:rgb(255, 255, 255);;
+   background:#1b1e24;
+   border-bottom:4px solid #9ea7af;
+   border-right: 1px solid #343a45;
+   font-size:23px;
+   font-weight: 100;
+   padding:24px;
+   text-align:left;
+   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+   vertical-align:middle;
+ }
+ 
+ th:first-child {
+   border-top-left-radius:3px;
+ }
+  
+ th:last-child {
+   border-top-right-radius:3px;
+   border-right:none;
+ }
+   
+ tr {
+   border-top: 1px solid #C1C3D1;
+   border-bottom: 1px solid #C1C3D1;
+   color:#666B85;
+   font-size:16px;
+   font-weight:normal;
+   text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+ }
+  
+ tr:hover td {
+   background:#4d4d4d;
+   color:#FFFFFF;
+   border-top: 1px solid #22262e;
+ }
+  
+ tr:first-child {
+   border-top:none;
+ }
+ 
+ tr:last-child {
+   border-bottom:none;
+ }
+  
+ tr:nth-child(odd) td {
+   background:#4d4d4d0d;
+ }
+  
+ tr:nth-child(odd):hover td {
+   background:#4d4d4d;
+ }
+ 
+ tr:last-child td:first-child {
+   border-bottom-left-radius:3px;
+ }
+  
+ tr:last-child td:last-child {
+   border-bottom-right-radius:3px;
+ }
+  
+ td {
+   background:#FFFFFF;
+   padding:20px;
+   text-align:left;
+   vertical-align:middle;
+   font-weight:300;
+   font-size:18px;
+   text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+   border-right: 1px solid #C1C3D1;
+ }
+ 
+ td:last-child {
+   border-right: 0px;
+ }
+ 
+ th.text-left {
+   text-align: left;
+ }
+ 
+ th.text-center {
+   text-align: center;
+ }
+ 
+ th.text-right {
+   text-align: right;
+ }
+ 
+ td.text-left {
+   text-align: left;
+ }
+ 
+ td.text-center {
+   text-align: center;
+ }
+ 
+ td.text-right {
+   text-align: right;
+ }
+ 
