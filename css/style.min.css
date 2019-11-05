@@ -7173,41 +7173,6 @@ video::-webkit-media-text-track-display {
 .slick-dotted.slick-slider {
 	margin-bottom: 30px
 }
-/* 
-.slick-dots {
-	position: absolute;
-	list-style: none;
-	display: block;
-	text-align: center;
-	padding: 0;
-	margin: 0;
-	width: 100%;
-	bottom: -45px;
-}
-
-.slick-dots li {
-	position: relative;
-	display: inline-block;
-	height: 20px;
-	width: 20px;
-	margin: 0 5px;
-	padding: 0;
-	cursor: pointer
-}
-
-.slick-dots li button {
-	border: 0;
-	background: 0 0;
-	display: block;
-	height: 20px;
-	width: 20px;
-	outline: 0;
-	line-height: 0;
-	font-size: 0;
-	color: transparent;
-	padding: 5px;
-	cursor: pointer
-} */
 
 .slick-dots li button:focus,
 .slick-dots li button:hover {
@@ -8551,22 +8516,6 @@ form .form-success.show {
 	color: #717171
 }
 
-/* .btn-whitepaper:before {
-	content: "";
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 0;
-	bottom: 0;
-	border: 2px solid #3AC28B;
-	border-radius: 8px;
-	opacity: 0;
-	transform: scale(0.9);
-	transition-property: all;
-	transition-duration: .3s;
-	transition-timing-function: cubic-bezier(0.25, .1, .25, 1)
-} */
-
 @media (min-width:992px) {
 	.btn-whitepaper:hover:before {
 		opacity: 1;
@@ -8609,14 +8558,6 @@ form .form-success.show {
 .mask-white:after {
 	background-image: url(/assets/mask-white.svg)
 }
-
-/* .screen-main {
-	height: 100%;
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
-	padding-top: 280px
-} */
 
 .screen-main {
     height: 70%;
@@ -10089,7 +10030,6 @@ form .form-success.show {
 	align-content: flex-start;
 	-ms-flex-align: start;
 	align-items: flex-start;
-	/* margin-right: -25px; */
 	margin-top:30px;
 }
 
@@ -10139,7 +10079,6 @@ form .form-success.show {
 .screen-use-case section .left .article {
 	-ms-flex: 50%;
 	flex: 50%;
-	/* padding: 20px 40px 10px 10px */
 }
 
 .screen-use-case section .left .article .dot {
@@ -10756,7 +10695,6 @@ form .form-success.show {
 }
 
 .screen-clients2 {
-	/* padding-top: 90px; */
 	padding-bottom: 90px
 }
 
@@ -12774,7 +12712,6 @@ form .form-success.show {
 	.video-section {
 		min-height: 165px;
 		width: 100%;
-		/* padding: 5px 0 */
 	}
 	.video-section .video-wrapper {
 		width: 100%
@@ -13039,8 +12976,6 @@ app-header {
 		right: 0;
 		top: 0;
 		bottom: 0;
-		/* background-color: rgb(0, 0, 0); */
-		/* box-shadow: 0 4px 8px 0 rgba(206, 206, 206, .5); */
 		z-index: 2
 	}
 }
@@ -13048,7 +12983,6 @@ app-header {
 app-header.fixed {
 	height: 72px;
 	background-color: #000;
-	/* box-shadow: 0 4px 8px 0 rgba(206, 206, 206, .5) */
 	box-shadow: 0 3px 10px -2px rgba(0,0,0,.1);
 }
 
@@ -13163,11 +13097,6 @@ app-header section {
 	}
 }
 
-/* nav .dropdown {
-	position: relative;
-	display: inline-block;
-  }
-   */
   nav .dropdown-content {
 	display: none;
 	position: absolute;
@@ -13175,7 +13104,6 @@ app-header section {
 	min-width: 160px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
-	/* border-bottom: 3px #000000; */
 
   }
   
@@ -15635,7 +15563,6 @@ app-developers>* .screen-join .text {
 		font-size: 24px
 	}
 	app-developers>* .screen-join .w h2 {
-		/* text-align: center; */
 		-ms-flex: 100%;
 		flex: 100%
 	}
@@ -19278,7 +19205,6 @@ app-footer footer .soc a {
 div.table-title {
 	display: block;
    margin: auto;
-   /* max-width: 600px; */
    padding:5px;
    width: 100%;
  }
@@ -19293,16 +19219,14 @@ div.table-title {
 	text-transform:uppercase;
  }
  
- 
- /*** Table Styles **/
- 
+  
  .table-fill {
    background: white;
    border-radius:3px;
    border-collapse: collapse;
    height: 320px;
+   /* max-width: ; */
    margin: auto;
-   /* max-width: 600px;  */
    padding:5px;
    width: 100%;
    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
