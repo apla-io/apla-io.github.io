@@ -19200,8 +19200,6 @@ app-footer footer .soc a {
 	}
 }
 
-
-
 div.table-title {
 	display: block;
    margin: auto;
@@ -19246,6 +19244,11 @@ div.table-title {
    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
    vertical-align:middle;
    min-width: 270px;
+ }
+
+ @media screen and (max-width:991px) { 
+	 th, td {
+	min-width: none!important;
  }
  
  th:first-child {
