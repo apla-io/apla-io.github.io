@@ -19244,6 +19244,7 @@ div.table-title {
 	 th, td {
 	min-width: none!important;
  }
+}
  
  th:first-child {
    border-top-left-radius:3px;
@@ -19345,7 +19346,8 @@ div.table-title {
  }
  
 
- @media screen and (max-width:719px) { .lux-logo {
+ @media screen and (max-width:719px) { 
+	 .lux-logo {
 	text-align: center !important;
 	max-width: 100%; 
 	margin-top: 20px;
