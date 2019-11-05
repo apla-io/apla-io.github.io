@@ -19242,7 +19242,7 @@ div.table-title {
 
  @media screen and (max-width:991px) { 
 	th, td {
-	min-width: 70px!important;
+	min-width: 80px!important;
 	font-size: 14px!important;
 	padding: 12px!important;
  }
