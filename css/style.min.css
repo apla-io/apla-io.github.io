@@ -19338,24 +19338,20 @@ div.table-title {
 .lux-logo {
 	text-align: right !important;
 	flex-grow: 1;
-    max-width: 100%; 
+	max-width: 100%; 
+	margin-top: -20px;
  }
 
  .lux-logo img {
 	max-height: 3.5rem;
 	width: auto;
-	margin-top: -20px;
  }
  
 
  @media screen and (max-width:719px) { .lux-logo {
 	text-align: center !important;
-    max-width: 100%; 
+	max-width: 100%; 
+	margin-top: 20px;
+
  }
 }
-
- .lux-logo img {
-	max-height: 3.5rem;
-	width: auto;
-	margin-top: 30px;
- }
