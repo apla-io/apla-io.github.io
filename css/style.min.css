@@ -18847,7 +18847,6 @@ app-footer nav {
 
 @media screen and (max-width:991px) {
 	app-footer nav {
-		/* border-bottom: 1px solid #D8D8D8; */
 		margin-bottom: 50px
 	}
 }
