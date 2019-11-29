@@ -35,7 +35,8 @@
     lang_codes["es"] = "es";
     lang_codes["pt"] = "pt";
   </script>
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 </head>
 
 <body class="en">
@@ -82,7 +83,8 @@
           </div>
           <div class="video-section">
             <div class="video-wrapper">
-              <video-js id="singleVideo" preload="no" crossorigin="" poster="/assets/images/video-bkg-sm-t.svg" controls data-setup="{&quot;fluid&quot;: true }">
+              <video-js id="singleVideo" preload="no" crossorigin="" poster="/assets/images/video-bkg-sm-t.svg" controls
+                data-setup="{&quot;fluid&quot;: true }">
                 <source src="/assets/videos/Apla_X_Reg.mp4">
               </video-js>
             </div>
@@ -183,19 +185,36 @@
               </div>
             </section>
           </div>
-          <!-- <div>
+          <div>
+            <h5>Defense-in-depth security <br>for hyper-vigilant board members</h5>
             <section>
-              <div class="right">
-              <div class="video-section">
-                <div class="video-wrapper">
-                  <video-js id="singleVideo" preload="no" crossorigin="" poster="/assets/images/video-bkg-sm-t.svg" controls data-setup="{&quot;fluid&quot;: true }">
-                    <source src="/assets/videos/apla_xreg.mp4">
-                  </video-js>
+              <div class="left">
+                <div class="article">
+                  <div class="p">
+                    <ul>
+                      <li>It's easy to start and easy to use. The platform’s intuitive interface and robust security
+                        features allow
+                        boards and leadership teams to work together more efficiently, productively, and strategically
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="left-button">
+                  <!-- <a class="btn-whitepaper" href="pricing/pricing.html" target="_blank">Pricing</a> -->
                 </div>
               </div>
+              <div class="right">
+                <div class="video-section">
+                  <div class="video-wrapper">
+                    <video-js id="singleVideo" preload="no" crossorigin="" poster="/assets/images/video-bkg-sm-t.svg"
+                      controls data-setup="{&quot;fluid&quot;: true }">
+                      <source src="/assets/videos/apla_xreg.mp4">
+                    </video-js>
+                  </div>
+                </div>
               </div>
             </section>
-          </div> -->
+          </div>
         </div>
       </div>
     </div>
@@ -207,7 +226,7 @@
             <div class="left">
               <div class="article">
                 <div class="p">
-                  From non-profit to banks and fiduciary offices. 
+                  From non-profit to banks and fiduciary offices.
                   <!-- Apla xReg can help every company that has board of
                   directors -->
                 </div>
@@ -225,14 +244,14 @@
     </div>
     <div class="screen-use-case">
       <div class="container">
-        <h2>Foster the development of a tech-enabled Consortium consensus</h2>
+        <h2>Blockchain backed security and automation</h2>
         <div class="video">
           <section>
             <div class="left">
               <div class="article">
                 <div class="p" style="max-width: none;">
-                  Consortium Network enables immutability for legally significant transactions originated in private
-                  blockchain networks powered by Apla.
+                  The integrity, authenticity, traceability and immutability of transactional data will be secured by
+                  the Apla award-winning blockchain technology
                 </div>
               </div>
             </div>
@@ -249,8 +268,8 @@
         <section>
           <a class="top" href="https://apla.io" target="_blank"><img src="/assets/images/clients/apla.jpg" alt=""></a><a
             class="top" href="http://stampify.lu" target="_blank"><img src="/assets/images/clients/stampify.png"
-              alt=""></a><a class="top" target="_blank"><img src="/assets/images/clients/nid.png" alt=""></a> 
-              <!-- <a class="top" href="https://www.grantthornton.com/" target="_blank"><img src="/assets/images/clients/gt.png"
+              alt=""></a><a class="top" target="_blank"><img src="/assets/images/clients/nid.png" alt=""></a>
+          <!-- <a class="top" href="https://www.grantthornton.com/" target="_blank"><img src="/assets/images/clients/gt.png"
               alt=""></a> -->
 
         </section>
@@ -359,9 +378,8 @@
           <footer>
             <div class="soc"><a class="btn-icon btn-icon-black" href="https://www.facebook.com/AplaBlockchain/"
                 target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                  <a class="btn-icon btn-icon-black"
-                href="https://github.com/AplaProject/go-apla/" target="_blank"><i class="fa fa-github"
-                  aria-hidden="true"></i></a><a class="btn-icon btn-icon-black"
+              <a class="btn-icon btn-icon-black" href="https://github.com/AplaProject/go-apla/" target="_blank"><i
+                  class="fa fa-github" aria-hidden="true"></i></a><a class="btn-icon btn-icon-black"
                 href="https://www.youtube.com/channel/UCLAccwf_YvWGnxSIVgGtl7g" target="_blank"><i class="fa fa-youtube"
                   aria-hidden="true"></i></a><a class="btn-icon btn-icon-black"
                 href="https://www.linkedin.com/company/apla-blockchain/" target="_blank"><i class="fa fa-linkedin"
@@ -369,7 +387,7 @@
             </div><small>&copy; 2019 Apla, All Rights Reserved.</small>
             <div class="lux-logo">
               <img src="assets/images/lux.svg" alt="..." class="footer-brand footer-brand-img img-fluid mb-2">
-          </div>
+            </div>
           </footer>
         </div>
       </app-footer>
@@ -400,24 +418,63 @@
           prevArrow: false,
           nextArrow: false
         });
+
+        $('.slick-dots').on('click', function () {
+          $('.autoplay').slick('slickPause');
+        });
+
+        $('.slick-prev, .slick-next').on('click', function () {
+          reinitSlick();
+        });
+
+        var reinitSlick = function () {
+          $slick.slick('slickSetOption', {
+            'autoplay': false
+          }, false);
+        }
+        
       </script>
+      <!-- <script>
+        var slickOptions = {
+            autoplay: true,
+            // rest of options
+          },
+          $slick = $('.my-slick');
+
+        $slick.slick(slickOptions);
+
+        // built-in feature, for more info check the [doc](http://kenwheeler.github.io/slick/)
+        $slick.on('swipe', function (event, slick, direction) {
+          reinitSlick();
+        });
+
+        $('.slick-prev, .slick-next').on('click', function () {
+          reinitSlick();
+        });
+
+        var reinitSlick = function () {
+          $slick.slick('slickSetOption', {
+            'autoplay': false
+          }, false);
+        }
+      </script> -->
   </app-home>
   <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
-<script>
-window.cookieconsent.initialise({
-  "palette": {
-    "popup": {
-      "background": "#ffffff"
-    },
-    "button": {
-      "background": "#3ac28b",
-      "text": "#ffffff"
-    }
-  },
-  "theme": "edgeless",
-  "content": {
-    "href": "download/Privacy_and_Cookies_Policy.pdf"
-  }
-});
-</script>
+  <script>
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#ffffff"
+        },
+        "button": {
+          "background": "#3ac28b",
+          "text": "#ffffff"
+        }
+      },
+      "theme": "edgeless",
+      "content": {
+        "href": "download/Privacy_and_Cookies_Policy.pdf"
+      }
+    });
+  </script>
 </body>
