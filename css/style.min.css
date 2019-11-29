@@ -4015,7 +4015,7 @@ button.swiper-pagination-bullet {
 	box-sizing: border-box;
 	color: #fff;
 	background-color: #000;
-	position: relative;
+	position: sticky;
 	padding: 0;
 	font-size: 10px;
 	line-height: 1;
@@ -8483,7 +8483,7 @@ form .form-success.show {
 	background-color: transparent;
 	font-family: GilroyExtraBold;
 	font-size: 18px;
-	color: #3AC28B;
+	color: #796240ba;
 	line-height: 18px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
@@ -8492,7 +8492,7 @@ form .form-success.show {
 	transition-property: background-color, color;
 	transition-duration: .3s;
 	transition-timing-function: cubic-bezier(0.25, .1, .25, 1);
-	border: 2px solid #3AC28B;
+	border: 2px solid #796240ba; 
 	border-radius: 8px;
 }
 
@@ -8518,7 +8518,17 @@ form .form-success.show {
 }
 
 .btn-whitepaper:active {
-	background-color: #3AC28B;
+	background-color: #796240;
+	color: #FFF
+}
+
+a.btn-whitepaper:hover {
+	color: #796240;
+	border: 2px solid #796240ba;
+}
+
+a.btn-whitepaper:active {
+	background-color: #796240;
 	color: #FFF
 }
 
@@ -8554,7 +8564,7 @@ form .form-success.show {
 }
 
 .screen-main {
-    height: 70%;
+    height: 100%;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -13279,6 +13289,23 @@ app-home>.screen-main {
 	position: relative;
 	z-index: 3;
     background-position: top;
+}
+
+/* @media (min-width:992px) { 
+app-home-new>.screen-main,
+app-home>.screen-main {
+	background-image: url(/assets/images/main-screen-3-mobile.jpg);
+	position: relative;
+	z-index: 3;
+	background-position: top;
+	}
+} */
+
+@media screen and (max-width:991px) {
+	app-home-new>.screen-main,
+app-home>.screen-main {
+	background-image: url(/assets/images/main-screen-3-mobile.jpg);
+	}
 }
 
 app-home-new>.screen-main.private,
