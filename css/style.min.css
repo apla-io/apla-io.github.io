@@ -18858,7 +18858,7 @@ app-footer section {
 
 app-footer section article {
 	-ms-flex: 50%;
-	flex: 20%;
+	flex: 10%;
 	padding-right: 25px;
 	margin-bottom: 32px
 }
