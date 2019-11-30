@@ -10049,7 +10049,7 @@ a.btn-whitepaper:active {
 
 .screen-use-case section .left {
 	-ms-flex: 50%;
-	flex: 50%;
+	flex: 30%;
 	display: -ms-flexbox;
 	display: inline;
 	-ms-flex-direction: row;
@@ -10132,14 +10132,19 @@ a.btn-whitepaper:active {
 .screen-use-case section .right {
 	-ms-flex: 50%;
 	flex: 50%;
-	margin-bottom: 40px;
 }
 
 .screen-use-case .single-item section .right {
 	-ms-flex: 50%;
-	flex: 50%;
+	flex: 45%;
 	margin-bottom: none;
-    margin-top: -100px;
+    /* margin-top: -100px; */
+}
+
+.screen-use-case .single-item section {
+	margin-bottom:30px;
+	margin-right:50px;
+	margin-left:50px;
 }
 
 @media screen and (max-width:991px) {
