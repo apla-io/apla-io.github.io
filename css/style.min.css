@@ -8577,7 +8577,8 @@ a.btn-whitepaper:active {
 
 @media screen and (max-width:991px) {
 	.screen-main {
-		padding-top: 110px
+		padding-top: 110px;
+		height: 60%;
 	}
 }
 
