@@ -15,6 +15,12 @@
 	font-style: normal
 }
 
+
+/*!
+ *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+
 @font-face {
 	font-family: FontAwesome;
 	src: url(/assets/fonts//fontawesome-webfont.eot?v=4.7.0);
@@ -4015,7 +4021,7 @@ button.swiper-pagination-bullet {
 	box-sizing: border-box;
 	color: #fff;
 	background-color: #000;
-	position: sticky;
+	position: relative;
 	padding: 0;
 	font-size: 10px;
 	line-height: 1;
@@ -7168,10 +7174,44 @@ video::-webkit-media-text-track-display {
 	margin-bottom: 30px
 }
 
+.slick-dots {
+	position: absolute;
+	bottom: -25px;
+	list-style: none;
+	display: block;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	width: 100%
+}
+
+.slick-dots li {
+	position: relative;
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	margin: 0 5px;
+	padding: 0;
+	cursor: pointer
+}
+
+.slick-dots li button {
+	border: 0;
+	background: 0 0;
+	display: block;
+	height: 20px;
+	width: 20px;
+	outline: 0;
+	line-height: 0;
+	font-size: 0;
+	color: transparent;
+	padding: 5px;
+	cursor: pointer
+}
+
 .slick-dots li button:focus,
 .slick-dots li button:hover {
-	outline: 0;
-	color: #000000;
+	outline: 0
 }
 
 .slick-dots li button:focus:before,
@@ -7370,7 +7410,7 @@ body.popup-show {
 h1 {
 	font-family: GilroyExtraBold;
 	font-size: 72px;
-	color: #ffffff;
+	color: #1C1A1A;
 	line-height: 72px;
 	text-transform: none
 }
@@ -7425,13 +7465,9 @@ h3 a {
 h4 {
 	font-family: GilroyExtraBold;
 	font-size: 32px;
-	color: #ffffff;
+	color: #1C1A1A;
 	line-height: 40px;
 	text-transform: none
-}
-
-h4.text-black {
-	color: #000000;
 }
 
 @media screen and (max-width:991px) {
@@ -7467,26 +7503,9 @@ p+p {
 }
 
 a {
-	color: #ffffff;
+	color: #1C1A1A;
 	outline: 0;
 	text-decoration: none
-}
-
-a.text-warning {
-	color: #f94C7A
-}
-
-span.offer-warning {
-	color: #f94C7A;
-	font-weight:bold;
-}
-
-h4.offer-warning {
-	color: #f94C7A;
-}
-
-span.offer {
-	font-weight:bold;
 }
 
 @media (min-width:992px) {
@@ -7497,10 +7516,6 @@ span.offer {
 	}
 	a:hover {
 		color: #3AC28B;
-		text-decoration: none
-	}
-	a.text-warning:hover {
-		color: #f94C7A;
 		text-decoration: none
 	}
 }
@@ -7537,8 +7552,7 @@ u {
 ul li {
 	position: relative;
 	padding-left: 30px;
-	padding-right: 25px;
-	margin-top: 10px;
+	padding-right: 25px
 }
 
 @media screen and (max-width:991px) {
@@ -7558,11 +7572,6 @@ ul li:before {
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: 100% 100%
-}
-
-ul.slick-dots li:before {
-	position: absolute;
-	background-image: none;
 }
 
 #loading-bar {
@@ -7605,7 +7614,7 @@ app-root {
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background-image: url(/assets/images/logo-white.svg);
+	background-image: url(/assets/images/logo-black.svg);
 	background-repeat: no-repeat;
 	background-position: 0 0;
 	background-size: 100% 100%;
@@ -7632,47 +7641,14 @@ app-root {
 	transition-timing-function: cubic-bezier(0.25, .1, .25, 1)
 }
 
-.logo-footer {
+.logo-dev {
 	position: relative;
 	display: block;
 	width: 112px;
 	height: 37px;
 	background-size: 112px 37px;
-	z-index: 3
-}
-
-.logo-footer:before {
-	content: "";
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	background-image: url(/assets/images/logo-black.svg);
-	background-repeat: no-repeat;
-	background-position: 0 0;
-	background-size: 100% 100%;
-	opacity: 1;
-	transition-property: opacity;
-	transition-duration: .3s;
-	transition-timing-function: cubic-bezier(0.25, .1, .25, 1)
-}
-
-.logo-footer:after {
-	content: "";
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	background-image: url(/assets/images/logo-black.svg);
-	background-repeat: no-repeat;
-	background-position: 0 0;
-	background-size: 100% 100%;
-	opacity: 0;
-	transition-property: opacity;
-	transition-duration: .3s;
-	transition-timing-function: cubic-bezier(0.25, .1, .25, 1)
+    z-index: 3;
+    background-image: url(/assets/images/logo-black-dev.png)
 }
 
 .thumb {
@@ -8483,7 +8459,7 @@ form .form-success.show {
 	background-color: transparent;
 	font-family: GilroyExtraBold;
 	font-size: 18px;
-	color: #796240ba;
+	color: #3AC28B;
 	line-height: 18px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
@@ -8492,7 +8468,7 @@ form .form-success.show {
 	transition-property: background-color, color;
 	transition-duration: .3s;
 	transition-timing-function: cubic-bezier(0.25, .1, .25, 1);
-	border: 2px solid #796240ba; 
+	border: 2px solid #3AC28B;
 	border-radius: 8px;
 }
 
@@ -8510,6 +8486,22 @@ form .form-success.show {
 	color: #717171
 }
 
+/* .btn-whitepaper:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	border: 2px solid #3AC28B;
+	border-radius: 8px;
+	opacity: 0;
+	transform: scale(0.9);
+	transition-property: all;
+	transition-duration: .3s;
+	transition-timing-function: cubic-bezier(0.25, .1, .25, 1)
+} */
+
 @media (min-width:992px) {
 	.btn-whitepaper:hover:before {
 		opacity: 1;
@@ -8518,17 +8510,7 @@ form .form-success.show {
 }
 
 .btn-whitepaper:active {
-	background-color: #796240;
-	color: #FFF
-}
-
-a.btn-whitepaper:hover {
-	color: #796240;
-	border: 2px solid #796240ba;
-}
-
-a.btn-whitepaper:active {
-	background-color: #796240;
+	background-color: #3AC28B;
 	color: #FFF
 }
 
@@ -8564,21 +8546,19 @@ a.btn-whitepaper:active {
 }
 
 .screen-main {
-    height: 100%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    padding-top: 260px;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	padding-top: 180px
 }
-
 .marketplace {
     background-image: url(/assets/images/banner-2.jpg);
 }
 
 @media screen and (max-width:991px) {
 	.screen-main {
-		padding-top: 110px;
-		height: 60%;
+		padding-top: 110px
 	}
 }
 
@@ -8599,7 +8579,7 @@ a.btn-whitepaper:active {
 }
 
 .screen-main h4 {
-	max-width: none;
+	max-width: 665px
 }
 
 .screen-main-popup {
@@ -8711,9 +8691,10 @@ a.btn-whitepaper:active {
 }
 
 .screen-invention {
+	position: relative;
 	z-index: 3;
 	background: #fff;
-	padding-top: 90px;
+	padding-top: 90px
 }
 
 @media screen and (max-width:991px) {
@@ -8741,42 +8722,6 @@ a.btn-whitepaper:active {
 	padding-bottom: 60px
 }
 
-.screen-invention .video {
-	padding-top: 30px;
-	margin-bottom: 50px;
-}
-
-.screen-invention .video .video-button {
-	text-align: center;
-	padding-top: 60px;
-}
-
-
-.screen-invention .left-button {
-	text-align: left;
-	padding-top: 60px;
-}
-
-
-.screen-use-case .left .left-button {
-	text-align: left;
-	padding-top: 60px; 
-}
-
-@media screen and (max-width:991px) {
-.screen-use-case .left .left-button { 
-	margin-bottom: 35px;
-}
-}
-
-/* assets */
-
-.screen-use-case .fancybox-iframe {
-    display: block;
-    width: 100%;
-    height: 100%;
-}
-
 @media screen and (max-width:991px) {
 	.screen-invention .img {
 		padding-top: 60px;
@@ -8801,15 +8746,13 @@ a.btn-whitepaper:active {
 
 @media (min-width:992px) {
 	.screen-invention section>* {
-		width: 25%;
-		padding-right: 25px;
-		justify-content: right;
+		width: 33.33%;
+		padding-right: 25px
 	}
 }
 
 .screen-invention section .item {
-	text-align: left;
-	margin-bottom: 40px;
+	text-align: left
 }
 
 .screen-invention section .item .icon {
@@ -8820,11 +8763,6 @@ a.btn-whitepaper:active {
 
 .screen-invention section .item h4 {
 	margin-bottom: 30px
-}
-
-.screen-invention h2.features {
-    margin-bottom: 40px;
-    margin-top: 20px;
 }
 
 @media screen and (max-width:991px) {
@@ -9999,8 +9937,8 @@ a.btn-whitepaper:active {
 }
 
 .screen-use-case {
-	padding-top: 80px;
-	padding-bottom: 80px;
+	padding-top: 230px;
+	padding-bottom: 0
 }
 
 @media screen and (max-width:991px) {
@@ -10018,7 +9956,7 @@ a.btn-whitepaper:active {
 @media screen and (max-width:991px) {
 	.screen-use-case {
 		font-size: 42px;
-		padding-bottom: 40px;
+		margin-bottom: 30px
 	}
 }
 
@@ -10035,11 +9973,7 @@ a.btn-whitepaper:active {
 	align-content: flex-start;
 	-ms-flex-align: start;
 	align-items: flex-start;
-	margin-top:30px;
-}
-
-.screen-invention .features {
-	padding-top: 30px;
+	margin-right: -25px
 }
 
 @media screen and (max-width:991px) {
@@ -10050,14 +9984,14 @@ a.btn-whitepaper:active {
 
 .screen-use-case section .left {
 	-ms-flex: 50%;
-	flex: 30%;
+	flex: 50%;
 	display: -ms-flexbox;
-	display: inline;
+	display: flex;
 	-ms-flex-direction: row;
 	flex-direction: row;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
-	margin-bottom: 30px;
+	margin-bottom: 30px
 }
 
 .screen-use-case section .whitepaper {
@@ -10084,6 +10018,7 @@ a.btn-whitepaper:active {
 .screen-use-case section .left .article {
 	-ms-flex: 50%;
 	flex: 50%;
+	padding: 20px 40px 10px 10px
 }
 
 .screen-use-case section .left .article .dot {
@@ -10132,29 +10067,7 @@ a.btn-whitepaper:active {
 
 .screen-use-case section .right {
 	-ms-flex: 50%;
-	flex: 50%;
-}
-
-.screen-use-case .single-item section .right {
-	-ms-flex: 50%;
-	flex: 45%;
-	margin-bottom: none;
-    /* margin-top: -100px; */
-}
-
-.screen-use-case .single-item section {
-	margin-bottom:30px;
-	margin-right:50px;
-	margin-left:50px;
-}
-
-@media screen and (max-width:991px) {
-	.screen-use-case section .right {
-		flex: 50%;
-		margin-bottom: 40px;
-		margin-top: 0!important;
-		text-align: center;
-	}
+	flex: 50%
 }
 
 .screen-use-case section .right .descr {
@@ -10705,6 +10618,7 @@ a.btn-whitepaper:active {
 }
 
 .screen-clients2 {
+	padding-top: 90px;
 	padding-bottom: 90px
 }
 
@@ -12722,6 +12636,7 @@ a.btn-whitepaper:active {
 	.video-section {
 		min-height: 165px;
 		width: 100%;
+		padding: 5px 0
 	}
 	.video-section .video-wrapper {
 		width: 100%
@@ -12986,14 +12901,16 @@ app-header {
 		right: 0;
 		top: 0;
 		bottom: 0;
+		background-color: #FFF;
+		box-shadow: 0 4px 8px 0 rgba(206, 206, 206, .5);
 		z-index: 2
 	}
 }
 
 app-header.fixed {
 	height: 72px;
-	background-color: #000;
-	box-shadow: 0 3px 10px -2px rgba(0,0,0,.1);
+	background-color: #FFF;
+	box-shadow: 0 4px 8px 0 rgba(206, 206, 206, .5)
 }
 
 @media (min-width:1200px) {
@@ -13024,13 +12941,13 @@ app-header.active .menu .patty {
 
 app-header.active .menu .patty:after {
 	top: 29px!important;
-	background: #796240!important;
+	background: #3AC28B!important;
 	transform: rotate(45deg)
 }
 
 app-header.active .menu .patty:before {
 	top: 29px!important;
-	background: #796240!important;
+	background: #3AC28B!important;
 	transform: rotate(-45deg)
 }
 
@@ -13107,31 +13024,6 @@ app-header section {
 	}
 }
 
-  nav .dropdown-content {
-	display: none;
-	position: absolute;
-	background-color: #f1f1f1;
-	min-width: 160px;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	z-index: 1;
-
-  }
-  
-  nav .dropdown-content a {
-	color: black;
-	padding: 12px 16px;
-	text-decoration: none;
-	display: block;
-	margin-left: 0!important;
-  }
-  
-  nav .dropdown-content a:hover {background-color: #ddd;}
-  
-  nav .dropdown:hover .dropdown-content {display: block;}
-  
-  nav .dropdown:hover .dropbtn {background-color: #3e8e41;}
-
-  
 @media (min-width:1200px) {
 	app-header section nav {
 		display: -ms-flexbox;
@@ -13144,17 +13036,16 @@ app-header section {
 		align-content: center;
 		-ms-flex-align: center;
 		align-items: center;
-		border-left: 2px solid #ffffff;
+		border-left: 2px solid #1C1A1A;
 		padding-left: 39px;
-		margin-left: auto;
-		margin-right: 39px;
+		margin-left: 39px;
+		margin-right: auto;
 		transition-property: border;
 		transition-duration: .3s;
 		transition-timing-function: cubic-bezier(0.25, .1, .25, 1)
 	}
 	app-header section nav a {
-		position: relative;
-		font-size: 20px;
+		position: relative
 	}
 	app-header section nav a:after {
 		content: "";
@@ -13168,19 +13059,12 @@ app-header section {
 		transition-duration: .3s;
 		transition-timing-function: cubic-bezier(1, 0, 0, 1)
 	}
-
-	app-header section nav a.text-warning:after {
-		background-color: #f94C7A;
-	}
-
 	app-header section nav a:hover:after {
 		width: 100%
 	}
-	app-header section nav a {
+	app-header section nav a+a {
 		margin-left: 40px
 	}
-
-	
 }
 
 app-header section .language {
@@ -13246,10 +13130,6 @@ app-header .menu {
 	transition-duration: .3s
 }
 
-nav a {
-	font-family: GilroyExtraBold!important;
-}
-
 @media (min-width:1200px) {
 	app-header .menu {
 		display: none
@@ -13260,7 +13140,7 @@ app-header .menu .patty {
 	width: 24px;
 	height: 3px;
 	margin: 29px auto;
-	background-color: #796240!important;
+	background-color: #3AC28B;
 	border-radius: 2px;
 	transition: all .3s
 }
@@ -13272,7 +13152,7 @@ app-header .menu .patty:before {
 	display: block;
 	width: 24px;
 	height: 3px;
-	background-color: #796240!important;
+	background-color: #3AC28B;
 	border-radius: 2px;
 	transition: all .3s
 }
@@ -13297,25 +13177,7 @@ app-home-new>.screen-main,
 app-home>.screen-main {
 	background-image: url(/assets/images/main-screen-3.jpg);
 	position: relative;
-	z-index: 3;
-    background-position: top;
-}
-
-/* @media (min-width:992px) { 
-app-home-new>.screen-main,
-app-home>.screen-main {
-	background-image: url(/assets/images/main-screen-3-mobile.jpg);
-	position: relative;
-	z-index: 3;
-	background-position: top;
-	}
-} */
-
-@media screen and (max-width:991px) {
-	app-home-new>.screen-main,
-app-home>.screen-main {
-	background-image: url(/assets/images/main-screen-3-mobile.jpg);
-	}
+	z-index: 3
 }
 
 app-home-new>.screen-main.private,
@@ -15523,7 +15385,7 @@ app-developers>* .screen-apla-github section {
 
 app-developers>* .screen-join {
 	padding: 90px 0;
-	background-color: #000000
+	background-color: #1C1A1A
 }
 
 @media screen and (max-width:991px) {
@@ -15543,9 +15405,10 @@ app-developers>* .screen-join h2 {
 app-developers>* .screen-join .link-2 {
 	font-family: GilroyExtraBold;
 	font-size: 36px;
-	color: #796240ba;
+	color: #3AC28B;
 	line-height: 31px;
 	text-transform: none;
+	text-align: center;
 	display: block;
 	margin-top: 30px
 }
@@ -15594,6 +15457,7 @@ app-developers>* .screen-join .text {
 		font-size: 24px
 	}
 	app-developers>* .screen-join .w h2 {
+		text-align: center;
 		-ms-flex: 100%;
 		flex: 100%
 	}
@@ -18759,10 +18623,6 @@ app-footer .screen-map {
 	padding-top: 90px
 }
 
-app-footer .container a {
-	color: #000000;
-}
-
 @media screen and (max-width:991px) {
 	app-footer .screen-map {
 		padding-top: 40px
@@ -18806,12 +18666,13 @@ app-footer nav {
 
 @media screen and (max-width:991px) {
 	app-footer nav {
+		border-bottom: 1px solid #D8D8D8;
 		margin-bottom: 50px
 	}
 }
 
 app-footer nav .logo {
-	margin-bottom: 70px
+	margin-bottom: 30px
 }
 
 @media screen and (max-width:991px) {
@@ -18875,8 +18736,8 @@ app-footer section article h5 {
 	margin-bottom: 10px
 }
 
-app-footer footer {
-	/* -ms-flex: 1;
+/* app-footer footer {
+	-ms-flex: 1;
 	flex: 1;
 	display: -ms-flexbox;
 	display: flex;
@@ -18889,8 +18750,23 @@ app-footer footer {
 	-ms-flex-align: center;
 	align-items: center;
 	padding-top: 90px;
-	padding-bottom: 80px */
-	flex:20%;
+	padding-bottom: 80px
+} */
+
+app-footer footer {
+    flex: 20%;
+}
+
+.lux-logo {
+    text-align: right !important;
+    flex-grow: 1;
+    max-width: 100%;
+    margin-top: -38px;
+}
+
+.lux-logo img {
+    max-height: 3.5rem;
+    width: auto;
 }
 
 @media screen and (max-width:991px) {
@@ -18923,17 +18799,12 @@ app-footer footer .soc {
 	app-footer footer .soc a {
 		margin-left: 4px!important;
 		margin-right: 4px!important;
-		margin-bottom: 8px;
-		
+		margin-bottom: 8px
 	}
 }
 
 app-footer footer .soc a+a {
-	margin-left: 8px;
-}
-
-app-footer footer .soc a {
-	color: #000000;
+	margin-left: 8px
 }
 
 @media screen and (max-width:991px) {
@@ -19230,167 +19101,4 @@ app-footer footer .soc a {
 	100% {
 		height: auto
 	}
-}
-
-div.table-title {
-	display: block;
-   margin: auto;
-   padding:5px;
-   width: 100%;
- }
- 
- .table-title h3 {
-	color: #fafafa;
-	font-size: 30px;
-	font-weight: 400;
-	font-style:normal;
-	font-family: "Roboto", helvetica, arial, sans-serif;
-	text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
-	text-transform:uppercase;
- }
- 
-  
- .table-fill {
-   background: white;
-   border-radius:3px;
-   border-collapse: collapse;
-   height: 320px;
-   /* max-width: ; */
-   margin: auto;
-   padding:5px;
-   width: 100%;
-   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-   animation: float 5s infinite;
-   margin-bottom: 50px;
- }
-  
- th {
-   color:rgb(255, 255, 255);;
-   background:#1b1e24;
-   border-bottom:4px solid #9ea7af;
-   border-right: 1px solid #343a45;
-   font-size:23px;
-   font-weight: 100;
-   padding:24px;
-   text-align:left;
-   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-   vertical-align:middle;
-   min-width: 270px;
- }
-
- @media screen and (max-width:991px) { 
-	th, td {
-	min-width: 80px!important;
-	font-size: 14px!important;
-	padding: 12px!important;
- }
-}
- 
- th:first-child {
-   border-top-left-radius:3px;
- }
-  
- th:last-child {
-   border-top-right-radius:3px;
-   border-right:none;
- }
-   
- tr {
-   border-top: 1px solid #C1C3D1;
-   border-bottom: 1px solid #C1C3D1;
-   color:#666B85;
-   font-size:16px;
-   font-weight:normal;
-   text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
- }
-  
- tr:hover td {
-   background:#4d4d4d;
-   color:#FFFFFF;
-   border-top: 1px solid #22262e;
- }
-  
- tr:first-child {
-   border-top:none;
- }
- 
- tr:last-child {
-   border-bottom:none;
- }
-  
- tr:nth-child(odd) td {
-   background:#4d4d4d0d;
- }
-  
- tr:nth-child(odd):hover td {
-   background:#4d4d4d;
- }
- 
- tr:last-child td:first-child {
-   border-bottom-left-radius:3px;
- }
-  
- tr:last-child td:last-child {
-   border-bottom-right-radius:3px;
- }
-  
- td {
-   background:#FFFFFF;
-   padding:20px;
-   text-align:left;
-   vertical-align:middle;
-   font-weight:300;
-   font-size:18px;
-   text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
-   border-right: 1px solid #C1C3D1;
- }
- 
- td:last-child {
-   border-right: 0px;
- }
- 
- th.text-left {
-   text-align: left;
- }
- 
- th.text-center {
-   text-align: center;
- }
- 
- th.text-right {
-   text-align: right;
- }
- 
- td.text-left {
-   text-align: left;
- }
- 
- td.text-center {
-   text-align: center;
- }
- 
- td.text-right {
-   text-align: right;
- }
-
-.lux-logo {
-	text-align: right !important;
-	flex-grow: 1;
-	max-width: 100%; 
-	margin-top: -38px;
- }
-
- .lux-logo img {
-	max-height: 3.5rem;
-	width: auto;
- }
- 
-
- @media screen and (max-width:719px) { 
-	 .lux-logo {
-	text-align: center !important;
-	max-width: 100%; 
-	margin-top: -25px;
-
- }
 }
