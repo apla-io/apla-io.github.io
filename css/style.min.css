@@ -10633,7 +10633,7 @@ form .form-success.show {
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-wrap: wrap;
-	flex-wrap: wrap
+	/* flex-wrap: wrap */
 }
 
 .screen-clients2 section a {
