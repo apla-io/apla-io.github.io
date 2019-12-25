@@ -9644,7 +9644,7 @@ form .form-success.show {
 	border-radius: 16px;
 	background: #101010;
 	color: #fff;
-	min-height: 470px
+	/* min-height: 360px; */
 }
 
 .screen-tiles section .article .arrow {
@@ -9670,7 +9670,7 @@ form .form-success.show {
 	display: inline;
 	margin-top: 0;
 	color: #fff;
-	font-size: 42px
+	font-size: 34px
 }
 
 @media screen and (max-width:991px) {
@@ -9681,7 +9681,8 @@ form .form-success.show {
 
 .screen-tiles section .article p {
 	max-width: 470px;
-	margin-top: 10px
+	margin-top: 10px;
+	font-size: 13px;
 }
 
 @media screen and (max-width:991px) {
@@ -12573,7 +12574,7 @@ form .form-success.show {
 }
 
 .banner {
-	height: 750px;
+	height: 400px;
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -15549,7 +15550,7 @@ app-land-registry .screen {
 }
 
 app-land-registry .screen-main {
-	background-image: url(/assets/images/cases/land-registry/main-screen.jpg)
+	background-image: url(/assets/images/projects/real-estate/main-screen.jpg)
 }
 
 app-land-registry .screen-main h4 {
@@ -19102,3 +19103,181 @@ app-footer footer .soc a+a {
 		height: auto
 	}
 }
+
+div.table-title {
+	display: block;
+   margin: auto;
+   padding:5px;
+   width: 100%;
+ }
+ 
+ .table-title h3 {
+	color: #fafafa;
+	font-size: 30px;
+	font-weight: 400;
+	font-style:normal;
+	font-family: "Roboto", helvetica, arial, sans-serif;
+	text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+	text-transform:uppercase;
+ }
+ 
+  
+ .table-fill {
+   background: white;
+   border-radius:3px;
+   border-collapse: collapse;
+   height: 320px;
+   /* max-width: ; */
+   margin: auto;
+   padding:5px;
+   width: 100%;
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+   animation: float 5s infinite;
+   margin-bottom: 50px;
+   margin-top: 50px;
+ }
+  
+ th {
+   color:rgb(255, 255, 255);;
+   background:#1b1e24;
+   border-bottom:4px solid #9ea7af;
+   border-right: 1px solid #343a45;
+   font-size:23px;
+   font-weight: 100;
+   padding:24px;
+   text-align:left;
+   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+   vertical-align:middle;
+   min-width: 270px;
+ }
+
+ @media screen and (max-width:991px) { 
+	th, td {
+	min-width: 80px!important;
+	font-size: 14px!important;
+	padding: 12px!important;
+ }
+}
+ 
+ th:first-child {
+   border-top-left-radius:3px;
+ }
+  
+ th:last-child {
+   border-top-right-radius:3px;
+   border-right:none;
+ }
+   
+ tr {
+   border-top: 1px solid #C1C3D1;
+   border-bottom: 1px solid #C1C3D1;
+   color:#666B85;
+   font-size:16px;
+   font-weight:normal;
+   text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+ }
+  
+ tr:hover td {
+   background:#4d4d4d;
+   color:#FFFFFF;
+   border-top: 1px solid #22262e;
+ }
+  
+ tr:first-child {
+   border-top:none;
+ }
+ 
+ tr:last-child {
+   border-bottom:none;
+ }
+  
+ tr:nth-child(odd) td {
+   background:#4d4d4d0d;
+ }
+  
+ tr:nth-child(odd):hover td {
+   background:#4d4d4d;
+ }
+ 
+ tr:last-child td:first-child {
+   border-bottom-left-radius:3px;
+ }
+  
+ tr:last-child td:last-child {
+   border-bottom-right-radius:3px;
+ }
+  
+ td {
+   background:#FFFFFF;
+   padding:20px;
+   text-align:left;
+   vertical-align:middle;
+   font-weight:300;
+   font-size:18px;
+   text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+   border-right: 1px solid #C1C3D1;
+ }
+ 
+ td:last-child {
+   border-right: 0px;
+ }
+ 
+ th.text-left {
+   text-align: left;
+ }
+ 
+ th.text-center {
+   text-align: center;
+ }
+ 
+ th.text-right {
+   text-align: right;
+ }
+ 
+ td.text-left {
+   text-align: left;
+ }
+ 
+ td.text-center {
+   text-align: center;
+ }
+ 
+ td.text-right {
+   text-align: right;
+ }
+
+ .screen-e-voting {
+	position: relative;
+    z-index: 3;
+    background: #fff;
+    padding-top: 90px;
+ }
+
+ .screen-e-voting h4 {
+	padding-bottom: 40px;
+ }
+ .screen-e-voting li {
+	 padding-bottom: 20px;
+ }
+
+ .screen-main .btn {
+    margin-left: -8px;
+}
+
+.screen-main h4 {
+    max-width: 650px;
+    margin-bottom: 15px;
+}
+
+.screen-invention .btn {
+	margin-left: -8px;
+}
+
+.screen-invention h2 {
+	margin-bottom: 40px;
+}
+
+.screen-invention.immutability section .item p {
+    margin-bottom: 40px!important;
+}
+
