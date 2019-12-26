@@ -19347,7 +19347,8 @@ div.table-title {
 
 .badge-rounded-circle.badge-lg {
     padding-left: 0.7em;
-    padding-right: 0.7em;
+	padding-right: 0.7em;
+	/* height: calc(1em + 1.4em); */
 }
 
 .badge-rounded-circle {
