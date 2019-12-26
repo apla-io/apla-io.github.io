@@ -15021,7 +15021,7 @@ app-developers>* .screen-main .im.im-5 {
 
 app-developers>* .screen-learn-about {
 	/* padding: 90px 0 */
-	padding-bottom: 90px;
+	padding-bottom: 60px;
 }
 
 app-developers>* .screen-learn-about h2 {
@@ -15048,10 +15048,10 @@ app-developers>* .screen-learn-about section .img img {
 
 app-developers>* .screen-learn-about section .article {
 	-ms-flex: 50%;
-	flex: 50%;
+	flex: 33%;
 	padding: 30px 30px 30px 0;
 	font-family: GilroyExtraBold;
-	font-size: 24px;
+	font-size: 18px;
 	color: #1C1A1A;
 	line-height: 31px;
 	text-transform: none;
@@ -15066,7 +15066,9 @@ app-developers>* .screen-learn-about section .article b {
 app-developers>* .screen-learn-about section .article .img {
 	-ms-flex: auto;
 	flex: auto;
-	text-align: center
+	text-align: center;
+	max-width: 46px;
+	
 }
 
 app-developers>* .screen-learn-about section .article .img img {
