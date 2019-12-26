@@ -7438,7 +7438,7 @@ h2 {
 }
 
 h2 a {
-	color: #3AC28B!important;
+	color: #796240!important;
 	font-size: 32px;
 	line-height: 40px
 }
@@ -7515,7 +7515,7 @@ a {
 		transition-timing-function: cubic-bezier(1, 0, 0, 1)
 	}
 	a:hover {
-		color: #3AC28B;
+		color: #796240;
 		text-decoration: none
 	}
 }
@@ -7552,7 +7552,8 @@ u {
 ul li {
 	position: relative;
 	padding-left: 30px;
-	padding-right: 25px
+	padding-right: 25px;
+	margin-top: 10px;
 }
 
 @media screen and (max-width:991px) {
@@ -7580,12 +7581,12 @@ ul li:before {
 }
 
 #loading-bar .bar {
-	background-color: #3AC28B
+	background-color: #796240
 }
 
 #loading-bar .peg {
 	width: 100%;
-	box-shadow: #3AC28B 1px 0 6px 1px
+	box-shadow: #796240 1px 0 6px 1px
 }
 
 app-root {
@@ -7738,7 +7739,7 @@ mat-dialog-container {
 
 @media (min-width:992px) {
 	.pseudo:hover {
-		color: #3AC28B;
+		color: #796240;
 		text-decoration: none
 	}
 }
@@ -7763,7 +7764,7 @@ mat-dialog-container {
 }
 
 .text-success {
-	color: #3AC28B!important
+	color: #796240!important
 }
 
 .arrow {
@@ -8108,7 +8109,7 @@ form .form-success.show {
 	bottom: 0;
 	width: 0;
 	height: 2px;
-	background-color: #3AC28B;
+	background-color: #796240;
 	transition-property: width;
 	transition-duration: .3s;
 	transition-timing-function: cubic-bezier(1, 0, 0, 1)
@@ -8167,7 +8168,7 @@ form .form-success.show {
 	background-color: transparent;
 	font-family: GilroyExtraBold;
 	font-size: 18px;
-	color: #3AC28B;
+	color: #796240;
 	line-height: 18px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
@@ -8199,7 +8200,7 @@ form .form-success.show {
 	right: 0;
 	top: 0;
 	bottom: 0;
-	border: 2px solid #3AC28B;
+	border: 2px solid #796240;
 	border-radius: 8px;
 	opacity: 0;
 	transform: scale(0.9);
@@ -8216,7 +8217,7 @@ form .form-success.show {
 }
 
 .btn:active {
-	background-color: #3AC28B;
+	background-color: #796240;
 	color: #FFF
 }
 
@@ -8459,7 +8460,7 @@ form .form-success.show {
 	background-color: transparent;
 	font-family: GilroyExtraBold;
 	font-size: 18px;
-	color: #3AC28B;
+	color: #796240;
 	line-height: 18px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
@@ -8468,7 +8469,7 @@ form .form-success.show {
 	transition-property: background-color, color;
 	transition-duration: .3s;
 	transition-timing-function: cubic-bezier(0.25, .1, .25, 1);
-	border: 2px solid #3AC28B;
+	border: 2px solid #796240;
 	border-radius: 8px;
 }
 
@@ -8493,7 +8494,7 @@ form .form-success.show {
 	right: 0;
 	top: 0;
 	bottom: 0;
-	border: 2px solid #3AC28B;
+	border: 2px solid #796240;
 	border-radius: 8px;
 	opacity: 0;
 	transform: scale(0.9);
@@ -8510,7 +8511,7 @@ form .form-success.show {
 }
 
 .btn-whitepaper:active {
-	background-color: #3AC28B;
+	background-color: #796240;
 	color: #FFF
 }
 
@@ -8718,8 +8719,8 @@ form .form-success.show {
 }
 
 .screen-invention .img {
-	padding-top: 90px;
-	padding-bottom: 60px
+	/* padding-top: 90px;
+	padding-bottom: 60px */
 }
 
 @media screen and (max-width:991px) {
@@ -9755,7 +9756,7 @@ form .form-success.show {
 	position: relative;
 	display: block;
 	color: #fff;
-	background-color: #3AC28B;
+	background-color: #796240;
 	background-size: cover;
 	box-shadow: 0 23px 57px -20px rgba(0, 0, 0, .41);
 	min-height: 450px;
@@ -9938,8 +9939,8 @@ form .form-success.show {
 }
 
 .screen-use-case {
-	padding-top: 230px;
-	padding-bottom: 0
+	/* padding-top: 230px; */
+	padding-bottom: 90px;
 }
 
 @media screen and (max-width:991px) {
@@ -9962,19 +9963,19 @@ form .form-success.show {
 }
 
 .screen-use-case section {
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-direction: row;
-	flex-direction: row;
-	-ms-flex-wrap: wrap;
-	flex-wrap: wrap;
-	-ms-flex-pack: start;
-	justify-content: flex-start;
-	-ms-flex-line-pack: start;
-	align-content: flex-start;
-	-ms-flex-align: start;
-	align-items: flex-start;
-	margin-right: -25px
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    margin-top: 30px;
 }
 
 @media screen and (max-width:991px) {
@@ -9984,15 +9985,15 @@ form .form-success.show {
 }
 
 .screen-use-case section .left {
-	-ms-flex: 50%;
-	flex: 50%;
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-direction: row;
-	flex-direction: row;
-	-ms-flex-wrap: wrap;
-	flex-wrap: wrap;
-	margin-bottom: 30px
+    -ms-flex: 50%;
+    flex: 30%;
+    display: -ms-flexbox;
+    display: inline;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
 }
 
 .screen-use-case section .whitepaper {
@@ -10006,7 +10007,7 @@ form .form-success.show {
     font-size: 16px;
     font-weight: 700;
     text-decoration: underline;
-    color: #3AC28B;
+    color: #796240;
 }
 
 @media screen and (max-width:991px) {
@@ -10019,7 +10020,7 @@ form .form-success.show {
 .screen-use-case section .left .article {
 	-ms-flex: 50%;
 	flex: 50%;
-	padding: 20px 40px 10px 10px
+	/* padding: 20px 40px 10px 10px */
 }
 
 .screen-use-case section .left .article .dot {
@@ -10634,16 +10635,16 @@ form .form-success.show {
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-wrap: wrap;
-	/* flex-wrap: wrap */
+	flex-wrap: wrap
 }
 
 .screen-clients2 section a {
-	padding-left: 10px;
-	padding-right: 10px;
+	/* padding-left: 10px;
+	padding-right: 10px; */
 	margin-top: 80px;
 	text-decoration: none;
 	-ms-flex: 25%;
-	flex: 25%
+	flex: 15%
 }
 
 @media screen and (max-width:991px) {
@@ -11037,7 +11038,7 @@ form .form-success.show {
 }
 
 .screen-vacancies h3 a {
-	color: #3AC28B!important
+	color: #796240!important
 }
 
 .screen-vacancies h4 {
@@ -11056,7 +11057,7 @@ form .form-success.show {
 }
 
 .screen-vacancies p a {
-	color: #3AC28B;
+	color: #796240;
 	font-weight: 700;
 	font-family: GilroyExtraBold, sans-serif;
 	font-size: 24px
@@ -11335,7 +11336,7 @@ form .form-success.show {
 }
 
 .screen-media_info section:nth-of-type(1) h5 a {
-	color: #3AC28B
+	color: #796240
 }
 
 .screen-media_info section:nth-of-type(1) article {
@@ -11423,7 +11424,7 @@ form .form-success.show {
 }
 
 .screen-media_info section:nth-of-type(2)>div p a {
-	color: #3AC28B
+	color: #796240
 }
 
 .screen-media_info section small {
@@ -12475,7 +12476,7 @@ form .form-success.show {
 }
 
 .screen-management .sheme strong {
-	color: #3AC28B
+	color: #796240
 }
 
 .screen-additional {
@@ -12716,7 +12717,7 @@ form .form-success.show {
 
 .video-section .video-wrapper .video-js .vjs-poster {
 	background-size: contain;
-	opacity: .95
+	opacity: .95;
 }
 
 .video-section .video-wrapper .video-js.vjs-ended .vjs-poster,
@@ -12771,12 +12772,12 @@ form .form-success.show {
 }
 
 .video-section .video-wrapper .vjs-fullscreen-control {
-	color: #3AC28B
+	color: #796240
 }
 
 .video-section .video-wrapper .vjs-play-progress,
 .video-section .video-wrapper .vjs-volume-level {
-	background: #3AC28B
+	background: #796240
 }
 
 .video2 .video-js {
@@ -12942,13 +12943,13 @@ app-header.active .menu .patty {
 
 app-header.active .menu .patty:after {
 	top: 29px!important;
-	background: #3AC28B!important;
+	background: #796240!important;
 	transform: rotate(45deg)
 }
 
 app-header.active .menu .patty:before {
 	top: 29px!important;
-	background: #3AC28B!important;
+	background: #796240!important;
 	transform: rotate(-45deg)
 }
 
@@ -13046,7 +13047,8 @@ app-header section {
 		transition-timing-function: cubic-bezier(0.25, .1, .25, 1)
 	}
 	app-header section nav a {
-		position: relative
+		position: relative;
+		font-weight: 900;
 	}
 	app-header section nav a:after {
 		content: "";
@@ -13055,7 +13057,7 @@ app-header section {
 		top: 100%;
 		width: 0;
 		height: 3px;
-		background-color: #3AC28B;
+		background-color: #796240;
 		transition-property: width;
 		transition-duration: .3s;
 		transition-timing-function: cubic-bezier(1, 0, 0, 1)
@@ -13141,7 +13143,7 @@ app-header .menu .patty {
 	width: 24px;
 	height: 3px;
 	margin: 29px auto;
-	background-color: #3AC28B;
+	background-color: #796240;
 	border-radius: 2px;
 	transition: all .3s
 }
@@ -13153,7 +13155,7 @@ app-header .menu .patty:before {
 	display: block;
 	width: 24px;
 	height: 3px;
-	background-color: #3AC28B;
+	background-color: #796240;
 	border-radius: 2px;
 	transition: all .3s
 }
@@ -14069,7 +14071,7 @@ app-vacancies>* h5 {
 }
 
 app-vacancies>* p a {
-	color: #3AC28B
+	color: #796240
 }
 
 app-vacancies>* p+h5 {
@@ -14634,7 +14636,7 @@ app-career>* .screen-it-happen .container:first-child app-appearing-block:first-
 }
 
 app-career>* .screen-it-happen .container a {
-	color: #3AC28B;
+	color: #796240;
 	text-decoration: underline
 }
 
@@ -14719,7 +14721,7 @@ app-career>* .screen-joining>* h1 {
 }
 
 app-career>* .screen-joining>* h1 span {
-	color: #3AC28B
+	color: #796240
 }
 
 app-career>* .screen-joining>* .receive-list {
@@ -15018,7 +15020,8 @@ app-developers>* .screen-main .im.im-5 {
 }
 
 app-developers>* .screen-learn-about {
-	padding: 90px 0
+	/* padding: 90px 0 */
+	padding-bottom: 90px;
 }
 
 app-developers>* .screen-learn-about h2 {
@@ -15057,7 +15060,7 @@ app-developers>* .screen-learn-about section .article {
 }
 
 app-developers>* .screen-learn-about section .article b {
-	color: #3AC28B
+	color: #796240
 }
 
 app-developers>* .screen-learn-about section .article .img {
@@ -15131,7 +15134,7 @@ app-developers>* .screen-get-started .sep {
 }
 
 app-developers>* .screen-get-started .sep h4 {
-	color: #3AC28B
+	color: #796240
 }
 
 app-developers>* .screen-get-started section {
@@ -15168,7 +15171,7 @@ app-developers>* .screen-get-started section article .text {
 app-developers>* .screen-get-started section article .link {
 	font-family: GilroyExtraBold;
 	font-size: 32px;
-	color: #3AC28B;
+	color: #796240;
 	line-height: 31px;
 	text-transform: none
 }
@@ -15206,7 +15209,7 @@ app-developers>* .screen-meet-molis .text {
 app-developers>* .screen-meet-molis .link {
 	font-family: GilroyExtraBold;
 	font-size: 32px;
-	color: #3AC28B;
+	color: #796240;
 	line-height: 31px;
 	text-transform: none
 }
@@ -15250,7 +15253,7 @@ app-developers>* .screen-meet-molis section .list .article {
 	padding: 15px 50px;
 	margin: 10px;
 	text-align: center;
-	border: 4px solid #3AC28B;
+	border: 4px solid #796240;
 	border-radius: 8px;
 	font-family: GilroyExtraBold;
 	font-size: 24px;
@@ -15297,7 +15300,7 @@ app-developers>* .screen-apla-github h2 {
 app-developers>* .screen-apla-github .link {
 	font-family: GilroyExtraBold;
 	font-size: 30px;
-	color: #3AC28B;
+	color: #796240;
 	line-height: 31px;
 	text-transform: none
 }
@@ -15406,7 +15409,7 @@ app-developers>* .screen-join h2 {
 app-developers>* .screen-join .link-2 {
 	font-family: GilroyExtraBold;
 	font-size: 36px;
-	color: #3AC28B;
+	color: #796240;
 	line-height: 31px;
 	text-transform: none;
 	text-align: center;
@@ -18495,7 +18498,7 @@ app-newsletter-alt .privacy {
 	font-size: 14px;
 	font-weight: 700;
 	text-decoration: underline;
-	color: #3AC28B
+	color: #796240
 }
 
 app-newsletter h4,
@@ -18723,7 +18726,8 @@ app-footer section article {
 	-ms-flex: 50%;
 	flex: 10%;
 	padding-right: 25px;
-	margin-bottom: 32px
+	position: relative;
+	/* margin-bottom: 32px */
 }
 
 @media screen and (max-width:991px) {
@@ -18755,14 +18759,15 @@ app-footer section article h5 {
 } */
 
 app-footer footer {
-    flex: 20%;
+	flex: 20%;
+	position: relative;
 }
 
 .lux-logo {
-    text-align: right !important;
-    flex-grow: 1;
-    max-width: 100%;
-    margin-top: -38px;
+	position: absolute;
+    bottom: 0;
+	right: 0;
+	margin-bottom: -5px;
 }
 
 .lux-logo img {
@@ -18778,13 +18783,23 @@ app-footer footer {
 	}
 }
 
-app-footer footer .soc {
-	margin-right: 30px
+app-footer .soc {
+	/* margin-right: 30px */
+	/* margin-top:30px; */
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+app-footer .reserved {
+	position: absolute;
+	bottom: 0;
+	left: 0;
 }
 
 @media screen and (max-width:991px) {
-	app-footer footer .soc {
-		display: -ms-flexbox;
+	app-footer .soc {
+		/* display: -ms-flexbox;
 		display: flex;
 		-ms-flex-flow: row wrap;
 		flex-flow: row wrap;
@@ -18792,7 +18807,10 @@ app-footer footer .soc {
 		justify-content: flex-start;
 		margin-left: -4px;
 		margin-right: -4px;
-		margin-bottom: 17px
+		margin-bottom: 17px */
+		position: absolute;
+		bottom: 0;
+		left: 0;
 	}
 }
 
@@ -18804,7 +18822,7 @@ app-footer footer .soc {
 	}
 }
 
-app-footer footer .soc a+a {
+app-footer .soc a+a {
 	margin-left: 8px
 }
 
@@ -19273,7 +19291,11 @@ div.table-title {
 	margin-left: -8px;
 }
 
-.screen-invention h2 {
+.screen-invention.immutability {
+	padding-top: 0;
+}
+
+.screen-invention.immutability h2 {
 	margin-bottom: 40px;
 }
 
@@ -19281,3 +19303,36 @@ div.table-title {
     margin-bottom: 40px!important;
 }
 
+
+.screen-use-case .single-item section {
+    margin-bottom: 30px;
+    /* margin-right: 50px;
+    margin-left: 50px; */
+    cursor: pointer;
+}
+
+.screen-use-case .single-item section .right {
+    -ms-flex: 50%;
+    flex: 45%;
+    margin-bottom: none;
+    /* margin-top: -100px; */
+}
+
+.screen-use-case .left .left-button {
+    text-align: left;
+    padding-top: 60px;
+}
+
+.screen-invention.x-reg .video {
+	padding-top: 30px;
+    margin-bottom: 50px;
+}
+
+.screen-invention.x-reg .video .video-button {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.screen-invention.x-reg {
+	padding-top: 0;
+}
