@@ -7575,6 +7575,10 @@ ul li:before {
 	background-size: 100% 100%
 }
 
+.slick-dots li:before {
+	background-image: none;
+}
+
 #loading-bar {
 	position: fixed;
 	z-index: 100
