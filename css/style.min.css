@@ -19314,8 +19314,6 @@ div.table-title {
 
 .screen-use-case .single-item section {
     margin-bottom: 30px;
-    /* margin-right: 50px;
-    margin-left: 50px; */
     cursor: pointer;
 }
 
@@ -19323,7 +19321,6 @@ div.table-title {
     -ms-flex: 50%;
     flex: 45%;
     margin-bottom: none;
-    /* margin-top: -100px; */
 }
 
 .screen-use-case .left .left-button {
@@ -19383,11 +19380,6 @@ div.table-title {
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
-/* *, ::after, ::before {
-    box-sizing: border-box;
-} */
-
-
 .screen-invention.immutability .item p {
     margin-left: 1.5rem !important;
 }
@@ -19399,4 +19391,32 @@ div.table-title {
 .screen-clients2 .btn {
 	margin-left: -8px;
 	margin-top: 30px;
+}
+
+.screen-invention.learn-more section>* {
+    width: 25%!important;
+    padding-right: 25px!important;
+}
+
+.screen-invention.learn-more section .item {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.screen-invention.learn-more h2.features {
+    margin-bottom: 40px;
+}
+
+.screen-invention.learn-more .features {
+    padding-top: 30px;
+}
+
+.screen-use-case.learn-more .features {
+    padding-top: 30px;
+}
+
+
+.screen-use-case.learn-more h2.features {
+    margin-bottom: 40px;
+    margin-top: 20px;
 }
